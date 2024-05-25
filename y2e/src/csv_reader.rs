@@ -6,8 +6,6 @@ pub fn read_css() -> Result<String, io::Error> {
     use std::fs::File;
     use csv::ReaderBuilder;
 
-    let Change = true;
-
     let path = "/Users/francisco/Documents/Estudos/Programming/Rust/YNAB to Excel/transactions.csv";
     
     // Open the CSV file

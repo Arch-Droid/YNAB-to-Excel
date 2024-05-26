@@ -9,22 +9,24 @@ Prompts wheter user wants to cram 15 (y/n)
 Adds and individual row for each transaction
 
 Input:
-Takes an css file formated as YNAB exports it
+Takes a csv file formated as YNAB exports it
 
 Extraction:
-Parses a CSS 'mutations.css' file by \t to a 'row': Vec<str>
+Parses a csv 'mutations.csv' file by \t to a 'row': StringRecord
 
-Date is index 0 [-11:-1]                            of this row
-Memo is index 9                                     of this row
-Mutations (both income and expense )is index 10     of this row
-Category_Number is index 7[:2]                      of this row
+Date is index 3                                     of this row
+Memo is index 8                                     of this row
+Expense is index 9                                  of this row
+Income is index 10                                  of this row
+Category_Number is index 8[:2]                      of this row
 
 Description of category will be grabed from another css file 'description.css'
 
 Generating output:
 Uses the Workbook object directly as data is extracted so the extracting is writing and writing is extracting
-This way there is no necessity of creating own objects and later assign them to the workbook object through the write_<type>() method
+This way there is no necessity of creating own objects and later assign them to the workbook object through the write_<type>() method.
 
+*/
 
 pub fn generate_excel(trasactions_css_paht_file: &str, description_css_paht_file: &str){
     
@@ -69,4 +71,3 @@ pub fn generate_excel(trasactions_css_paht_file: &str, description_css_paht_file
 
 }
 
-*/

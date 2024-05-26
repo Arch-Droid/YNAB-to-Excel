@@ -6,7 +6,7 @@ use csv_reader::read_css;
 fn main() {
    match read_css(){
       Ok(text) => print!("{}", text),
-      Err(error) => panic!("{:?}", error),
+      Err(error) => println!("{:?}", error),
    }
 
 }

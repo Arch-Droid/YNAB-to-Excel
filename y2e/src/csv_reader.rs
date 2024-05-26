@@ -1,8 +1,4 @@
-
-use std::io::{self};
-
-
-pub fn read_css() -> Result<String, io::Error> {
+pub fn read_css() -> Result<String, String> {
     use std::fs::File;
     use csv::ReaderBuilder;
 
@@ -14,17 +10,28 @@ pub fn read_css() -> Result<String, io::Error> {
     // Create a reader
     let mut reader = ReaderBuilder::new().delimiter(b'\t').from_reader(file);
 
-    // Define a reader
+    // Define a iterator
     let mut iter = reader.records();
 
-    // Iterate the reader
-    if let Some(result) = iter.next(){
-        let text = result.unwrap();
-        print!("{:?}", text);
-        Ok(String::new())
-    } else {
+    loop {
+          // Iterate the reader
+        match iter.next() {
+            Some(result) => match result {
+                Ok(record) => {
+                    println!("{:?}",record);
 
-        panic!("Failed to iterate next")
-
+                },
+                Err(_) => return Err(String::from("Failure to propagate result"))
+            },
+            None => return Err(String::from("error grabbing result")),
+            
+        }
+        
     }
+
+}
+
+fn rob_sheet<'a> (worksheet: &'a xlsxwriter::Worksheet) -> &'a xlsxwriter::Worksheet<'a> {
+    return worksheet;
+
 }

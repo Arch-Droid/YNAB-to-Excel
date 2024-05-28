@@ -12,19 +12,34 @@ Input:
 Takes a csv file formated as YNAB exports it
 
 Extraction:
-Parses a csv 'mutations.csv' file by \t to a 'row': StringRecord
+Parses a csv 'mutations.csv' file by \t and serializes to a 'row': Vec<String>
 
 Date is index 3                                     of this row
 Memo is index 8                                     of this row
 Expense is index 9                                  of this row
 Income is index 10                                  of this row
-Category_Number is index 8[:2]                      of this row
+Category_Number is index 7[:2]                      of this row
 
-Description of category will be grabed from another css file 'description.css'
+Description of category will be grabed from another css file 'description.csv'
 
 Generating output:
-Uses the Workbook object directly as data is extracted so the extracting is writing and writing is extracting
-This way there is no necessity of creating own objects and later assign them to the workbook object through the write_<type>() method.
+Runs a loop
+rows{
+
+    csv_extraction::write_to_sheet(sheet: &mut Workbook::Sheet, row: Vec<String>)
+        // data is extracted and written to a new row on the sheet:
+        // 14 and 15 managed appropriately in sub-functions
+    
+    row = iterator.next()
+}
+calls workbook.close() and finishes
+
+
+Extraction:
+For fruther documentation see csv_extraction.
+
+CSV file and iterator are opened in pub fn generate_excel
+passed as (mutable) reference to the sub protocols
 
 */
 
@@ -33,11 +48,31 @@ pub fn generate_excel(trasactions_css_paht_file: &str, description_css_paht_file
     //Include the main excel library
     use xlsxwriter::prelude::*;
 
+    //Include the standard File
+    use std::fs::File;
+
+    //Include the csv library
+    use csv::ReaderBuilder;
+
+
+
+    // Open the CSV file
+    let file = File::open(trasactions_css_paht_file).expect("failed to find transactions file");
+
+    // Create a reader
+    let mut reader = ReaderBuilder::new().delimiter(b'\t').from_reader(file);
+    
+    // Define a iterator
+    let mut iter = reader.records();
+
+    //Calculate lenght of iterator
+
+
+
     //Create the workbook which will become the excel file
     let workbook = Workbook::new("simple1.xlsx").unwrap();
 
     //Create a mutable sheet for the workbook.
-    //All the writing will take place here
     let mut sheet1 = workbook.add_worksheet(None).unwrap();
     sheet1.write_string(0, 
                         0, 

@@ -26,7 +26,7 @@ Generating output:
 Runs a loop
 rows{
 
-    csv_extraction::write_to_sheet(sheet: &mut Workbook::Sheet, row: Vec<String>)
+    csv_extraction::write_to_sheet(sheet: &mut Workbook::Sheet, row: Vec<String>, index: u32)
         // data is extracted and written to a new row on the sheet:
         // 14 and 15 managed appropriately in sub-functions
     

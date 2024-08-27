@@ -43,7 +43,12 @@ passed as (mutable) reference to the sub protocols
 
 */
 
-pub fn generate_excel(trasactions_css_paht_file: &str, description_css_paht_file: &str){
+  use csv::DeserializeRecordsIter;
+
+//Include csv extraction
+  use crate::csv_extraction::write_to_sheet;
+
+pub fn generate_excel(trasactions_css_paht_file: &str){
     
     //Include the main excel library
     use xlsxwriter::prelude::*;
@@ -63,45 +68,32 @@ pub fn generate_excel(trasactions_css_paht_file: &str, description_css_paht_file
     let mut reader = ReaderBuilder::new().delimiter(b'\t').from_reader(file);
     
     // Define a iterator
-    let mut iter = reader.records();
+    let mut iter:DeserializeRecordsIter<File, Vec<String>> = reader.deserialize();
 
-    //Calculate lenght of iterator
-
-
-
+    
     //Create the workbook which will become the excel file
     let workbook = Workbook::new("simple1.xlsx").unwrap();
 
     //Create a mutable sheet for the workbook.
-    let mut sheet1 = workbook.add_worksheet(None).unwrap();
-    sheet1.write_string(0, 
-                        0, 
-                        "Red text", 
-                        Some(&Format::new().set_font_color(FormatColor::Red))).unwrap();
-    sheet1.write_number(0, 
-                        1, 
-                        20., 
-                        None)
-                        .unwrap();
-    sheet1.write_formula_num(
-                            1, 
-                            0, 
-                            "=10+B1", 
-                            None, 
-                            30.)
-                            .unwrap();
-    sheet1.write_url(
-        1,
-        1,
-        "https://github.com/informationsea/xlsxwriter-rs",
-        Some(&Format::new().set_font_color(FormatColor::Blue).set_underline(FormatUnderline::Single)),
-    ).unwrap();
-    sheet1.merge_range(2, 0, 3, 2, "Hello, world", Some(
-        &Format::new().set_font_color(FormatColor::Green).set_align(FormatAlignment::CenterAcross)
-                    .set_vertical_align(FormatVerticalAlignment::VerticalCenter))).unwrap();
+    let mut sheet = workbook.add_worksheet(None).unwrap();
 
-    sheet1.set_selection(1, 0, 1, 2);
-    sheet1.set_tab_color(FormatColor::Cyan);
+    
+    //We introduce an index to write to the appropriate row
+    let mut index = 0;
+
+    //Iterate the iterator writing everything
+    for element in iter{
+        match element{
+            Ok(row) => {
+                match write_to_sheet(&mut sheet, &row, index){
+                    Ok(_) => index += 1,
+                    Err(_) =>(),
+                }
+            }
+            Err(_) => (),
+        }
+    }
+
     workbook.close().unwrap();
 
 }

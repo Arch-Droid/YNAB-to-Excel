@@ -40,10 +40,22 @@ writes on row_index
 use csv::DeserializeRecordsIter;
 
 
+//Writes every row
+// Sheet is the mutable sheet
+// Row is the raw data which needs to be processed
+// Index is the height of the row NOT column, columns are specifed in each individual write function
 pub fn write_to_sheet<'a>(sheet: &mut xlsxwriter::Worksheet, 
                         row: &Vec<String>,
-                        index: u32){
+                        index: u32) -> Result<(),String>{
+    write_date(row, sheet, index)?;
+    write_initals(row, sheet, index);
+    write_memo(row, sheet, index);
+    write_income(row, sheet, index);
+    write_expense(row, sheet, index);
+    write_2_initals(row, sheet, index);
+    write_category_number_and_initials_dot_category_number(row, sheet, index);
 
+    Ok(())
 }
 
 
@@ -51,21 +63,23 @@ pub fn write_to_sheet<'a>(sheet: &mut xlsxwriter::Worksheet,
 // Functions responsible for writing on the sheet
 //
 
-fn write_date(row: &Vec<String>, sheet: &mut xlsxwriter::Worksheet, index: u32){
-    // Extract date
-    
+fn write_date<>(row: &Vec<String>, sheet: &mut xlsxwriter::Worksheet, index: u32) -> Result<(),String>{
+
+    // Define a date
     let date: &String;
 
-    // Does not deal with error
-
-    match extract_date(row){
-        Ok(value) => date = value,
-        Err(text) => panic!("{text}"),
-    }
+    // Extracts date and propagates error
+    date = extract_date(row)?;
     
-    // Write date
+    if compare_date(&date, "00/00/0000".to_string())?{
+        // Write date
+        sheet.write_string(index, 0, &date, None).expect("Failed to write");
+        Ok(())
 
-    sheet.write_string(index, 0, &date, None).unwrap()
+    } else{
+        Err("Date older".to_string())
+    }
+
 }
 
 fn write_initals(row: &Vec<String>, sheet: &mut xlsxwriter::Worksheet, index: u32){
@@ -210,12 +224,8 @@ fn extract_memo(row: &Vec<String>) -> Result<String, &str>{
         Ok(memo)
         
     } else{
-        print!("Memo not found, could you add a Memo? Memo: ");
-        std::io::stdin()
-                .read_line(&mut memo)
-                .expect("Failed to read line");
-        println!("Inputed category: {memo}, proceeding");
-        Ok(memo)
+        print!("Memo not found, adding PLACEHOLDER ");
+        Ok("MEMO".to_string())
 
     }
 
@@ -273,50 +283,17 @@ fn extract_category(row: &Vec<String>) -> Result<String, &str>{
                 let valid = false;
                 
                 // Warn the user
-                println!("Category not found, could you add a category? Category: ");
-
-                //Loop untill data is considered valid
-                while valid == false{
-
-                    //Read input
-                    match std::io::stdin()
-                            .read_line(&mut category){
-                                Ok(_) => (),
-                                Err(value) => {
-                                    
-                                    println!("Failed to read line");
-                                    continue
-                                }
-                            }
-
-                            
-                            // Validate data
-                    let category_as_number:u32 = match category.trim().parse(){
-                        Ok(value) => {
-                            
-                            // Give feedback
-                            println!("Inputed category: {category}, proceeding");
-                            value
-                        },
-                        Err(value) => {
-                            
-                            println!("Please type a number: ");
-                            continue
-                        }
-                    };
-
-                    return Ok(category_as_number.to_string())
+                println!("Category not found, adding PLACEHOLDER...");
+                Ok("CATEGORY".to_string())
 
                 }
                     
-                Err("Error validating text")
             }
-        }
-
+        
         None => Err("index out of range"),
+        
     }
         
-
 }
 
 fn extract_category_description(){
@@ -331,7 +308,7 @@ fn extract_category_description(){
 //
 
 // Compares a date to a comparision
-fn compare_date(date: &String, comparision: &String) -> Result<bool, String>{       // TODO: Why String works and &str gives so much trouble
+fn compare_date(date: &String, comparision: String) -> Result<bool, String>{       // TODO: Why String works and &str gives so much trouble
     
     // Coversion Dates to vectors
 
@@ -353,7 +330,7 @@ fn compare_date(date: &String, comparision: &String) -> Result<bool, String>{   
 }
 
 
-//Functions responsible for validating data
+//Functions responsible for formatting data
 
 fn format_date_to_vector(date: &String) -> Result<Vec<u32>, &str>{
 

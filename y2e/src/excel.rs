@@ -79,15 +79,23 @@ pub fn generate_excel(trasactions_css_paht_file: &str){
 
     
     //We introduce an index to write to the appropriate row
-    let mut index = 0;
+    // index = 0 reserved for 14
+    // index = 1 reserved for 15
+    let mut index = 3;
+
+    // Stored values for cramming 14 and 15
+     let mut cram_14: Vec<f32> = vec![0.0,0.0];
+     let mut cram_15: Vec<f32> = vec![0.0,0.0];
 
     //Iterate the iterator writing everything
     for element in iter{
         match element{
             Ok(row) => {
-                match write_to_sheet(&mut sheet, &row, index){
+                match write_to_sheet(&mut sheet, &row, index, &mut cram_14, &mut cram_15){
                     Ok(_) => index += 1,
-                    Err(_) =>(),
+                    Err(text) => {
+
+                    },
                 }
             }
             Err(_) => (),
@@ -97,4 +105,3 @@ pub fn generate_excel(trasactions_css_paht_file: &str){
     workbook.close().unwrap();
 
 }
-

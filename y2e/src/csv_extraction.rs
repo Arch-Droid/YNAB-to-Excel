@@ -37,6 +37,8 @@ writes on row_index
 */
 
 
+use std::u32;
+
 use csv::DeserializeRecordsIter;
 
 
@@ -46,7 +48,29 @@ use csv::DeserializeRecordsIter;
 // Index is the height of the row NOT column, columns are specifed in each individual write function
 pub fn write_to_sheet<'a>(sheet: &mut xlsxwriter::Worksheet, 
                         row: &Vec<String>,
-                        index: u32) -> Result<(),String>{
+                        index: u32, cram_14: &mut Vec<f32>, cram_15: &mut Vec<f32>) -> Result<(),String>{
+
+    //Preliminary check (only ABN allowed)
+    check_account(row)?;
+    check_date(row, "01/08/2024")?;     // Date to compare
+
+    // Check wheather category equals 14 to cram
+    if extract_category(row) == Ok("14".to_string()){
+        println!("14");
+        cram_income(cram_14, row, sheet, 0);
+        cram_expense(cram_14, row, sheet, 0);
+        
+        return Err("CRAM".to_string());
+        
+    // Check wheather category equals 15 to cram
+    } else if extract_category(row) == Ok("15".to_string()){
+        println!("15");
+        cram_income(cram_15, row, sheet, 1);
+        cram_expense(cram_15, row, sheet, 1);
+
+        return Err("CRAM".to_string());
+
+    } else {
     write_date(row, sheet, index)?;
     write_initals(row, sheet, index);
     write_memo(row, sheet, index);
@@ -54,7 +78,8 @@ pub fn write_to_sheet<'a>(sheet: &mut xlsxwriter::Worksheet,
     write_expense(row, sheet, index);
     write_2_initals(row, sheet, index);
     write_category_number_and_initials_dot_category_number(row, sheet, index);
-
+    }
+    
     Ok(())
 }
 
@@ -71,7 +96,7 @@ fn write_date<>(row: &Vec<String>, sheet: &mut xlsxwriter::Worksheet, index: u32
     // Extracts date and propagates error
     date = extract_date(row)?;
     
-    if compare_date(&date, "00/00/0000".to_string())?{
+    if compare_date(&date, "20/05/2024".to_string())?{
         // Write date
         sheet.write_string(index, 0, &date, None).expect("Failed to write");
         Ok(())
@@ -170,11 +195,55 @@ fn write_initials_dot_category_number(category_number: String, sheet: &mut xlsxw
 
     let initials_dot_category_number = "FR.".to_string() + &category_number;
 
-    sheet.write_string(index, 6, &initials_dot_category_number, None).unwrap()
+    sheet.write_string(index, 7, &initials_dot_category_number, None).unwrap()
 
 }
 
+// Writer Functions responsible for cramming
+//
+//
 
+// Crams income accesing stored higer cram values
+// Takes the original value (cram), the row information, the sheet to write on, and the index of the row on which to write (in this case only 1 or 2)
+
+fn cram_income(cram: &mut Vec<f32>, row: &Vec<String>, sheet:&mut xlsxwriter::Worksheet, index: u32){
+
+    // Define left half of income
+    let income  = &extract_income(row).unwrap()
+                                                .chars()
+                                                .filter(|&c| c != '.' && c != ' ')
+                                                .map(|c| if c == ',' { '.' } else if c == '€' { ' ' } else {c})
+                                                .collect::<String>();
+    println!("Income: {}", income);
+    let income_as_f32: f32 = income.trim().parse().expect("TROUBLE");
+
+    // Add the values up
+    cram[0] += income_as_f32;
+
+
+    //Write the total income
+    sheet.write_string(index, 3, &cram[0].to_string(), None).unwrap()
+}
+
+// Crams expense accesing cram values stored higher up
+fn cram_expense(cram: &mut Vec<f32>, row: &Vec<String>, sheet:&mut xlsxwriter::Worksheet, index: u32){
+
+    // Expense, rewrites the comma to a dot
+    let expense  = &extract_expense(row).unwrap()
+                                                .chars()
+                                                .filter(|&c| c != '.' && c != ' ')
+                                                .map(|c| if c == ',' { '.' } else if c == '€' { ' ' } else {c})
+                                                .collect::<String>();
+    println!("Expense: {}", expense);
+    let expense_as_f32: f32 = expense.trim().parse().expect("TROUBLE");
+
+    // Add the values up
+    println!("Cram before: {}", cram[1]);
+    cram[1] = cram[1] + expense_as_f32;
+    println!("Cram: {}", cram[1]);
+
+    sheet.write_string(index, 4, &cram[1].to_string(), None).unwrap()
+}
 
 
 //
@@ -303,9 +372,44 @@ fn extract_category_description(){
 }
 
 
+
 // Functions responsible for logic
 //
 //
+
+// Checks whether account is ABN
+
+fn check_account(row: &Vec<String>) -> Result<(),String>{
+
+    let index = 0; // Account
+
+    match row.get(index){
+        Some(account) => {
+            if account == "ABN"{
+                Ok(())
+            } else {
+                Err("Wrong account".to_string())
+            }
+        }
+        None => Err("Index out of range".to_string()),
+    }
+}
+
+// Checks wheather date is outdated
+
+fn check_date(row: &Vec<String>, comparision: &str) -> Result<(), String>{
+
+    // Extracts date and propagates error
+    let date = extract_date(row)?;
+
+    if compare_date(&date, comparision.to_string())?{
+        Ok(())
+
+    } else{
+        Err("Date older".to_string())
+    }
+
+}
 
 // Compares a date to a comparision
 fn compare_date(date: &String, comparision: String) -> Result<bool, String>{       // TODO: Why String works and &str gives so much trouble
@@ -315,16 +419,18 @@ fn compare_date(date: &String, comparision: String) -> Result<bool, String>{    
     let date_as_vector: Vec<u32> = format_date_to_vector(&date)?;
     let comparision_as_vector: Vec<u32> = format_date_to_vector(&comparision)?;
 
-    //internally multiplies dates
+    //Compares the dates
+    // If year is smaller then the date is older than the fixed comparision
+    if date_as_vector[2] < comparision_as_vector[2]{
+        Ok(false)
+    // If year is the same but month is smaller then the date is older than the fixed comparision
+    } else if date_as_vector[2] == comparision_as_vector[2] && date_as_vector[1] < comparision_as_vector[1] {
+        Ok(false)
+    // If the year is not smaller nor equal than the date is younger
+    } else {
+        Ok(true)
+    }
 
-    let date_internaly_multiplied: u32 = internal_multiplication(&date_as_vector)?;
-
-    let comparision_internally_multiplied: u32 = internal_multiplication(&comparision_as_vector)?;
-
-    // Compares the internal multiplier
-    // Returns 0 if date is older (therefore smaller) than comparision
-
-    Ok(date_internaly_multiplied > comparision_internally_multiplied)
 
 
 }
@@ -371,22 +477,6 @@ fn format_date_to_vector(date: &String) -> Result<Vec<u32>, &str>{
 
     return Ok(date_vector);
 }
-
-
-//Returns a multiplication of the 3 date elements
-fn internal_multiplication(vector: &Vec<u32>) -> Result<u32, &str>{
-    
-    if vector.len() == 3{
-        return Ok(vector[0] * vector[1] * vector[2])
-    } else {
-
-        Err("Lenght is not 3")
-
-    }
-
-
-}
-
 
 // Deprecated will be removed in the future
 pub fn read_css() -> Result<String, String> {

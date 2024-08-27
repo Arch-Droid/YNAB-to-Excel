@@ -18,6 +18,9 @@ extracts from &iterator.next:
     Outlfow
     Inflow
 
+Data is validated as extrated, errors are dealt at extraction level
+Writers call panic!() if data is invalid
+
 writes on row_index
     colomn 0 -> write_Date()
     colomn 1 -> write_initals()
@@ -202,7 +205,7 @@ fn extract_memo(row: &Vec<String>) -> Result<String, &str>{
 
     let mut memo = String::new();
 
-    if Some(value) = row.get(index) {
+    if let Some(value) = row.get(index) {
         memo = String::from(value);
         Ok(memo)
         
@@ -266,13 +269,47 @@ fn extract_category(row: &Vec<String>) -> Result<String, &str>{
                 Ok(category)
 
             } else {
-                print!("Category not found, could you add a category? Category: ");
-                std::io::stdin()
-                        .read_line(&mut category)
-                        .expect("Failed to read line");
-                println!("Inputed category: {category}, proceeding");
-                Ok(category)
 
+                let valid = false;
+                
+                // Warn the user
+                println!("Category not found, could you add a category? Category: ");
+
+                //Loop untill data is considered valid
+                while valid == false{
+
+                    //Read input
+                    match std::io::stdin()
+                            .read_line(&mut category){
+                                Ok(_) => (),
+                                Err(value) => {
+                                    
+                                    println!("Failed to read line");
+                                    continue
+                                }
+                            }
+
+                            
+                            // Validate data
+                    let category_as_number:u32 = match category.trim().parse(){
+                        Ok(value) => {
+                            
+                            // Give feedback
+                            println!("Inputed category: {category}, proceeding");
+                            value
+                        },
+                        Err(value) => {
+                            
+                            println!("Please type a number: ");
+                            continue
+                        }
+                    };
+
+                    return Ok(category_as_number.to_string())
+
+                }
+                    
+                Err("Error validating text")
             }
         }
 
@@ -296,10 +333,10 @@ fn extract_category_description(){
 // Compares a date to a comparision
 fn compare_date(date: &String, comparision: &String) -> Result<bool, String>{       // TODO: Why String works and &str gives so much trouble
     
-    // Validates Dates
+    // Coversion Dates to vectors
 
-    let date_as_vector: Vec<u32> = validate_date(&date)?;
-    let comparision_as_vector: Vec<u32> = validate_date(&comparision)?;
+    let date_as_vector: Vec<u32> = format_date_to_vector(&date)?;
+    let comparision_as_vector: Vec<u32> = format_date_to_vector(&comparision)?;
 
     //internally multiplies dates
 
@@ -318,14 +355,14 @@ fn compare_date(date: &String, comparision: &String) -> Result<bool, String>{   
 
 //Functions responsible for validating data
 
-fn validate_date(date: &String) -> Result<Vec<u32>, &str>{
+fn format_date_to_vector(date: &String) -> Result<Vec<u32>, &str>{
 
     // Alocate a Vector
     let mut date_vector: Vec<u32> = vec![0,0,0];
 
     // Separates date into Vec<u32>[xx, xx, xxxx]
 
-    if date.len() > 1{                  // Checks wheter first element is present
+    if date.len() > 1{                  // Checks wheter first element is present: xx-00-0000
         if let Ok(value) = date[0..2].parse(){
             date_vector[0] = value;
         } else{
@@ -335,8 +372,8 @@ fn validate_date(date: &String) -> Result<Vec<u32>, &str>{
         return Err("Lenght of date is too short, first element not found");
     }
     
-    if date.len() > 4{                  // Checks wheter second element is present
-        if let Ok(value) = date[0..2].parse(){
+    if date.len() > 4{                  // Checks wheter second element is present: 00-xx-0000
+        if let Ok(value) = date[3..5].parse(){
             date_vector[1] = value;
         } else{
             return Err("Failed to parse second 2 digits of date");
@@ -345,8 +382,8 @@ fn validate_date(date: &String) -> Result<Vec<u32>, &str>{
         return Err("Lenght of date is too short, second element not found");
     }
     
-    if date.len() > 9{                  // Checks wheter third element is present
-        if let Ok(value) = date[0..2].parse(){
+    if date.len() > 9{                  // Checks wheter third element is present: 00-00-xxxx
+        if let Ok(value) = date[6..10].parse(){
             date_vector[2] = value;
         } else{
             return Err("Failed to parse last 4 digits of date");
@@ -379,7 +416,7 @@ pub fn read_css() -> Result<String, String> {
     use std::fs::File;
     use csv::ReaderBuilder;
 
-    let path = "/Users/francisco/Documents/Estudos/Programming/Rust/YNAB to Excel/transactions.csv";
+    let path = "/Users/francisco/Documents/Scientia/Programming/Rust/YNAB to Excel/transactions.csv";
     
     // Open the CSV file
     let file = File::open(path).expect("failed to find transactions file");
@@ -394,12 +431,13 @@ pub fn read_css() -> Result<String, String> {
           // Iterate the reader
         match iter.next() {
             Some(result) => match result {
-                Ok(record) => {
-                    print!("{:?}",record[3]);           // Date
-                    print!("{:?}",&record[7][0..2]); // Category
+                Ok(record) => { 
+
+                    print!("{:?}",&record[3]);  // Date
+                    print!("{:?}",extract_category(&record));    // Category
                     print!("{:?}",record[8]);           // Memo
                     print!("{:?}",record[9]);           // Expense
-                    println!("{:?}",record[10]);          // Income
+                    println!("{:?}",record[10]);        // Income
                     
                 },
                 Err(_) => return Err(String::from("Failure to retrieve result"))
@@ -409,12 +447,5 @@ pub fn read_css() -> Result<String, String> {
         }
         
     }
-
-}
-
-
-//Works!
-fn rob_sheet<'a> (worksheet: &'a xlsxwriter::Worksheet) -> &'a xlsxwriter::Worksheet<'a> {
-    return worksheet;
 
 }

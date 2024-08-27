@@ -2,6 +2,7 @@ Finish extract functions
 
 1. Validate dates to a vec [xx, xx, xxxx]
 2. Compare internal multiplier
+3. Validation of all extractions
 
 Finish Write functions
-No logic in Write functions
+Logic in Writing

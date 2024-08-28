@@ -37,8 +37,7 @@ writes on row_index
 */
 
 
-use std::u32;
-
+use std::{io, u32};
 use csv::DeserializeRecordsIter;
 
 
@@ -52,7 +51,7 @@ pub fn write_to_sheet<'a>(sheet: &mut xlsxwriter::Worksheet,
 
     //Preliminary check (only ABN allowed)
     check_account(row)?;
-    check_date(row, "01/08/2024")?;     // Date to compare
+    check_date(row, "01/07/2024")?;     // Date to compare
 
     // Check wheather category equals 14 to cram
     if extract_category(row) == Ok("14".to_string()){
@@ -63,7 +62,7 @@ pub fn write_to_sheet<'a>(sheet: &mut xlsxwriter::Worksheet,
         return Err("CRAM".to_string());
         
     // Check wheather category equals 15 to cram
-    } else if extract_category(row) == Ok("15".to_string()){
+    } else if extract_category(row) == Ok("15".to_string()) && promt_user(row){
         println!("15");
         cram_income(cram_15, row, sheet, 1);
         cram_expense(cram_15, row, sheet, 1);
@@ -430,11 +429,29 @@ fn compare_date(date: &String, comparision: String) -> Result<bool, String>{    
     } else {
         Ok(true)
     }
-
-
-
 }
 
+
+//Prompts user about cramming 15
+
+fn promt_user(row: &Vec<String>) -> bool{
+    println!("The following category has been identified as 15, do you wish to cram it?");
+    println!("{:?}", row);
+
+    let mut awnser = String::new();
+    io::stdin()
+        .read_line(&mut awnser)
+        .expect("Failed to read line");
+
+    if awnser == "y\n".to_string(){
+        return true
+    }
+
+    else {
+        return false
+    }
+
+}
 
 //Functions responsible for formatting data
 

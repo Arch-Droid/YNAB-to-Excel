@@ -36,14 +36,16 @@ calls workbook.close() and finishes
 
 
 Extraction:
-For fruther documentation see csv_extraction.
+For futher documentation see csv_extraction.
 
 CSV file and iterator are opened in pub fn generate_excel
 passed as (mutable) reference to the sub protocols
 
 */
 
-  use csv::DeserializeRecordsIter;
+  use std::collections::HashMap;
+
+use csv::DeserializeRecordsIter;
 
 //Include csv extraction
   use crate::csv_extraction::write_to_sheet;
@@ -79,19 +81,41 @@ pub fn generate_excel(trasactions_css_paht_file: &str){
 
     
     //We introduce an index to write to the appropriate row
-    // index = 0 reserved for 14
-    // index = 1 reserved for 15
-    let mut index = 3;
+    // index = 0 reserved for 9
+    // index = 1 reserved for 10
+    // index = 2 reserved for 12
+    // index = 3 reserved for 14
+    // index = 4 reserved for 15
+    // index = 5 reserved for 20
+    // index = 6 reserved for 21
 
-    // Stored values for cramming 14 and 15
-     let mut cram_14: Vec<f32> = vec![0.0,0.0];
-     let mut cram_15: Vec<f32> = vec![0.0,0.0];
+    let mut index = 8;
+    
+    // Stored values for cramming categories
+    //  let mut cram_9: Vec<f32> = vec![0.0,0.0];
+    //  let mut cram_10: Vec<f32> = vec![0.0,0.0];
+    //  let mut cram_12: Vec<f32> = vec![0.0,0.0];
+    //  let mut cram_14: Vec<f32> = vec![0.0,0.0];
+    //  let mut cram_15: Vec<f32> = vec![0.0,0.0];
+    //  let mut cram_20: Vec<f32> = vec![0.0,0.0];
+    //  let mut cram_21: Vec<f32> = vec![0.0,0.0];
+
+     // Stored Keys for accessing stored values
+     let keys: Vec<&str> = Vec::from(["cram_9", "cram_10","cram_12","cram_14","cram_15","cram_20","cram_21",]);
+
+     // Define a Hashmap to organise all the catgories
+     let mut cram_values = HashMap::new();
+
+     // Loop through all the Keys and associate a corresponding values vector
+     for key in keys{
+        cram_values.insert(key, vec![0.0,0.0]);
+     }
 
     //Iterate the iterator writing everything
     for element in iter{
         match element{
             Ok(row) => {
-                match write_to_sheet(&mut sheet, &row, index, &mut cram_14, &mut cram_15){
+                match write_to_sheet(&mut sheet, &row, index, &mut cram_values){
                     Ok(_) => index += 1,
                     Err(text) => {
 

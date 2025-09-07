@@ -1,590 +1,154 @@
 ﻿"Account"	"Flag"	"Check Number"	"Date"	"Payee"	"Category"	"Master Category"	"Sub Category"	"Memo"	"Outflow"	"Inflow"	"Cleared"	"Running Balance"
-"ABN"			10/02/2023	"Starting Balance"	"Income:Available this month"	"Income"	"Available this month"		0,00€	484,18€	R	484,18€
-"ABN"			10/02/2023	"Other"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Henry"	2,25€	0,00€	R	481,93€
-"ABN"			10/02/2023	"Het Pleintje UMC"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Younan lunch"	7,35€	0,00€	R	474,58€
-"ABN"			10/02/2023	"AH"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Henry"	8,89€	0,00€	R	465,69€
-"ABN"			13/02/2023	"Transfer : Safe"				"Oude vrouw"	0,00€	385,00€	R	850,69€
-"ABN"			13/02/2023	"VU"	"Everyday Expenses:14 Coffee Vu"	"Everyday Expenses"	"14 Coffee Vu"	"Chocolate"	0,40€	0,00€	R	850,29€
-"ABN"			14/02/2023	"Richard"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Terugbetaling lunch"	0,00€	18,22€	R	868,51€
-"ABN"			14/02/2023	"AH"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Lunch m/ patrick"	18,22€	0,00€	R	850,29€
-"ABN"			15/02/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"		15,00€	0,00€	R	835,29€
-"ABN"			17/02/2023	"AH"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Koekjes"	3,09€	0,00€	R	832,20€
-"ABN"			17/02/2023	"BloemenWinkel Jumbo"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Orthostatisch syncope"	6,00€	0,00€	R	826,20€
-"ABN"			20/02/2023	"Belasting"	"Income:Available this month"	"Income"	"Available this month"	"Zorgtoeslag"	0,00€	155,00€	R	981,20€
-"ABN"			20/02/2023	"AH"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"		3,00€	0,00€	R	978,20€
-"ABN"			22/02/2023	"VU"	"Everyday Expenses:14 Coffee Vu"	"Everyday Expenses"	"14 Coffee Vu"	"Chocolate"	0,40€	0,00€	R	977,80€
-"ABN"			22/02/2023	"BloemenWinkel Jumbo"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Hypofyse adenoom & HypoPTH"	14,00€	0,00€	R	963,80€
-"ABN"			22/02/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"		15,00€	0,00€	R	948,80€
-"ABN"			23/02/2023	"AH"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"		4,94€	0,00€	R	943,86€
-"ABN"			23/02/2023	"Café"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Nikos croissant"	7,50€	0,00€	R	936,36€
-"ABN"			24/02/2023	"Het Pleintje UMC"	"Everyday Expenses:14 Coffee Vu"	"Everyday Expenses"	"14 Coffee Vu"	"Nervus enthousiasticus"	2,00€	0,00€	R	934,36€
-"ABN"			25/02/2023	"Pieter Bas"	"Rainy Day Funds:14 Kapper"	"Rainy Day Funds"	"14 Kapper"		21,00€	0,00€	R	913,36€
-"ABN"			27/02/2023	"Jumbo"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Bloemen Patient"	10,00€	0,00€	R	903,36€
-"ABN"			01/03/2023	"Hmng"	"Income:Available this month"	"Income"	"Available this month"		0,00€	700,00€	R	1603,36€
-"ABN"			01/03/2023	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"		2,50€	0,00€	R	1600,86€
-"ABN"			01/03/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"		15,00€	0,00€	R	1585,86€
-"ABN"			01/03/2023	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Pensioen"	640,00€	0,00€	R	945,86€
-"ABN"			03/03/2023	"MFVU"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Bier en zuipen"	3,00€	0,00€	R	942,86€
-"ABN"			05/03/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Mello Waffels"	9,00€	0,00€	R	933,86€
-"ABN"			06/03/2023	"AH"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Jasmijn"	8,99€	0,00€	R	924,87€
-"ABN"			07/03/2023	"NS"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Amsta"	20,00€	0,00€	R	904,87€
-"ABN"			08/03/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"		15,00€	0,00€	R	889,87€
-"ABN"			10/03/2023	"Dirk"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Bacalhau Espiritual"	9,32€	0,00€	R	880,55€
-"ABN"			10/03/2023	"AH"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Bacalhau Espiritual"	19,90€	0,00€	R	860,65€
-"ABN"			12/03/2023	"Emanuel R."	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Tikkie Terugbetaling"	0,00€	9,74€	R	870,39€
-"ABN"			12/03/2023	"Henry H."	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Tikkie terugbetaling"	0,00€	9,74€	R	880,13€
-"ABN"			12/03/2023	"Myself"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"		0,00€	9,74€	R	889,87€
-"ABN"			12/03/2023	"Resolve"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Bacalhau espiritual"	9,74€	0,00€	R	880,13€
-"ABN"			13/03/2023	"JvB"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Terugbetaling + extra"	0,00€	42,00€	R	922,13€
-"ABN"			13/03/2023	"Onur"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Terugbetaling Onur"	18,00€	0,00€	R	904,13€
-"ABN"			13/03/2023	"Other"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Van Gogh"	30,00€	0,00€	R	874,13€
-"ABN"			14/03/2023	"Henry H."	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Terugbetaling Henry"	0,00€	10,00€	R	884,13€
-"ABN"			14/03/2023	"Lieuwen"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Terugbetaling Van Gogh"	0,00€	10,00€	R	894,13€
-"ABN"			14/03/2023	"Max (GNK)"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Terugbetaling Van Gogh"	0,00€	10,00€	R	904,13€
-"ABN"			14/03/2023	"Victor"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Terugbetaling Van Gogh"	0,00€	10,00€	R	914,13€
-"ABN"			14/03/2023	"AH"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Bloemen Nier piloot"	9,99€	0,00€	R	904,14€
-"ABN"			14/03/2023	"Other"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Henry + Emanuel van Gogh"	20,00€	0,00€	R	884,14€
-"ABN"			15/03/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Eerder betaalde dingen + 15"	60,00€	0,00€	R	824,14€
-"ABN"			17/03/2023	"Emanuel R."	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Terugbetaling Van Gogh"	0,00€	10,00€	R	834,14€
-"ABN"			17/03/2023	"ABN"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"ABN Boef"	1,93€	0,00€	R	832,21€
-"ABN"			20/03/2023	"Belasting"	"Income:Available this month"	"Income"	"Available this month"	"Zorgtoeslag"	0,00€	155,00€	R	987,21€
-"ABN"			20/03/2023	"MFVU"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Almoço pittig kip wraps"	3,69€	0,00€	R	983,52€
-"ABN"			20/03/2023	"AH"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Almoço"	6,40€	0,00€	R	977,12€
-"ABN"			21/03/2023	"AH"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Koekjes"	2,70€	0,00€	R	974,42€
-"ABN"			22/03/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"		15,00€	0,00€	R	959,42€
-"ABN"			24/03/2023	"AH"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Traketeren koekjes"	2,19€	0,00€	R	957,23€
-"ABN"			24/03/2023	"MFVU"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Verband kit EHBO"	7,85€	0,00€	R	949,38€
-"ABN"			24/03/2023	"Other"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Boulderen Henry"	17,00€	0,00€	R	932,38€
-"ABN"			28/03/2023	"Opa & Oma"	"Income:Available next month"	"Income"	"Available next month"	"Presente de Anos"	0,00€	150,00€	R	1082,38€
-"ABN"			29/03/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"		15,00€	0,00€	R	1067,38€
-"ABN"			30/03/2023	"AH"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Shampoo Bonus!"	4,19€	0,00€	R	1063,19€
-"ABN"			30/03/2023	"Other"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Lak voor Nicholas"	15,00€	0,00€	R	1048,19€
-"ABN"			01/04/2023	"Hmng"	"Income:Available this month"	"Income"	"Available this month"	"Zakgeld + Pension"	0,00€	700,00€	R	1748,19€
-"ABN"			01/04/2023	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	2,50€	0,00€	R	1745,69€
-"ABN"			01/04/2023	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Pensioen"	640,00€	0,00€	R	1105,69€
-"ABN"			05/04/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	1090,69€
-"ABN"			12/04/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	1075,69€
-"ABN"			14/04/2023	"AH"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Hapjes voor Borrel"	35,87€	0,00€	R	1039,82€
-"ABN"			14/04/2023	"AH"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Bier"	41,67€	0,00€	R	998,15€
-"ABN"			17/04/2023	"Richard"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Lak Terugbetalen"	0,00€	15,00€	R	1013,15€
-"ABN"			19/04/2023	"AH"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Flesje wijn voor Paul v Vulpen"	4,49€	0,00€	R	1008,66€
-"ABN"			19/04/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	993,66€
-"ABN"			20/04/2023	"Belasting"	"Income:Available this month"	"Income"	"Available this month"	"Zorgtoeslag"	0,00€	155,00€	R	1148,66€
-"ABN"			20/04/2023	"AH"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Koekjes"	1,39€	0,00€	R	1147,27€
-"ABN"			20/04/2023	"Etos"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Guess Parfum"	15,00€	0,00€	R	1132,27€
-"ABN"			21/04/2023	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Goedmaker voor Nov Dec en Jan"	90,00€	0,00€	R	1042,27€
-"ABN"			24/04/2023	"NKZP"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Voorjaarsbijeenkomst NKZP"	17,50€	0,00€	R	1024,77€
-"ABN"			25/04/2023	"VU"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Lunch vrienden"	4,34€	0,00€	R	1020,43€
-"ABN"			25/04/2023	"VU"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Avondeten Vrienden"	7,40€	0,00€	R	1013,03€
-"ABN"			26/04/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	998,03€
-"ABN"			26/04/2023	"Iustis"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Aanvraag VOG wordt terugbetaald"	33,85€	0,00€	R	964,18€
-"ABN"			27/04/2023	"Other"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Koningsdag flaggetjes"	0,20€	0,00€	R	963,98€
-"ABN"			30/04/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Ijsje Eduardo en Rich"	3,00€	0,00€	R	960,98€
-"ABN"			30/04/2023	"Parochie"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Collecte Mis"	10,00€	0,00€	R	950,98€
-"ABN"			01/05/2023	"Hmng"	"Income:Available this month"	"Income"	"Available this month"	"Zakgeld + Pension"	0,00€	700,00€	R	1650,98€
-"ABN"			01/05/2023	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	2,50€	0,00€	R	1648,48€
-"ABN"			01/05/2023	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Pensioen"	640,00€	0,00€	R	1008,48€
-"ABN"			03/05/2023	"AH"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Bloemen Minke Woensdagavond"	5,49€	0,00€	R	1002,99€
-"ABN"			03/05/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	987,99€
-"ABN"			03/05/2023	"SquashCity"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Reparatie Racket"	24,00€	0,00€	R	963,99€
-"ABN"			05/05/2023	"Massimo"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Gelato Matteo"	8,00€	0,00€	R	955,99€
-"ABN"			05/05/2023	"AH"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Mello Eteen"	14,29€	0,00€	R	941,70€
-"ABN"			05/05/2023	"NS"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"NS saldo ophogen"	50,00€	0,00€	R	891,70€
-"ABN"			10/05/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	876,70€
-"ABN"			11/05/2023	"Action"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Spullen kopen verjardag"	5,01€	0,00€	R	871,69€
-"ABN"			12/05/2023	"Other"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Indiaans hapje Mello"	6,00€	0,00€	R	865,69€
-"ABN"			14/05/2023	"Bol.com"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Kleine prins boekje voor een vriend"	13,94€	0,00€	R	851,75€
-"ABN"			14/05/2023	"Other"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Dia da mãe"	22,50€	0,00€	R	829,25€
-"ABN"			16/05/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Mello Terugbetaling"	0,00€	7,14€	R	836,39€
-"ABN"			17/05/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Bier vrienden"	5,50€	0,00€	R	830,89€
-"ABN"			17/05/2023	"AH"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Lunch AH"	6,25€	0,00€	R	824,64€
-"ABN"			17/05/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	809,64€
-"ABN"			19/05/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Koffie vriend"	8,50€	0,00€	R	801,14€
-"ABN"			20/05/2023	"Hema"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Schaar, Nieten, Boek, Nietapparaat"	10,35€	0,00€	R	790,79€
-"ABN"			22/05/2023	"Belasting"	"Income:Available this month"	"Income"	"Available this month"	"Zorgtoeslag"	0,00€	155,00€	R	945,79€
-"ABN"			23/05/2023	"AH"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Lunch"	2,69€	0,00€	R	943,10€
-"ABN"			24/05/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	928,10€
-"ABN"			25/05/2023	"AH"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Rudi te velde Fles, (Terugbetaald door het huis)"	7,99€	0,00€	R	920,11€
-"ABN"			25/05/2023	"VU"	"Everyday Expenses:14 Coffee Vu"	"Everyday Expenses"	"14 Coffee Vu"	"Voorgeschoten vrienden koffie"	8,60€	0,00€	R	911,51€
-"ABN"			25/05/2023	"De Keu"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Poolen vriend + bier"	28,00€	0,00€	R	883,51€
-"ABN"			26/05/2023	"AH"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Brunch vrienden"	17,00€	0,00€	R	866,51€
-"ABN"			26/05/2023	"Gollem"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Gollem met Paul"	23,70€	0,00€	R	842,81€
-"ABN"			27/05/2023	"Lh"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Terugbetaling Fles en Bloemen"	0,00€	13,49€	R	856,30€
-"ABN"			27/05/2023	"KAWA"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Ijsjes getrakteerd"	13,25€	0,00€	R	843,05€
-"ABN"			27/05/2023	"KAWA"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Kanoen met de boys (terugbetaald later)"	35,00€	0,00€	R	808,05€
-"ABN"			28/05/2023	"Transfer : Safe"				"Daan wilde wisselgeld"	0,00€	5,00€	R	813,05€
-"ABN"			31/05/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	798,05€
-"ABN"			01/06/2023	"Hmng"	"Income:Available this month"	"Income"	"Available this month"	"Zakgeld + Pension"	0,00€	700,00€	R	1498,05€
-"ABN"			01/06/2023	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	2,50€	0,00€	R	1495,55€
-"ABN"			01/06/2023	"CBR"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Gezondheidsverklaring CBR"	41,00€	0,00€	R	1454,55€
-"ABN"			01/06/2023	"Other"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Fietswiel Reparatie"	95,00€	0,00€	R	1359,55€
-"ABN"			01/06/2023	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Pensioen"	640,00€	0,00€	R	719,55€
-"ABN"			05/06/2023	"Pedro"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling Pedro Kanoen"	0,00€	7,00€	R	726,55€
-"ABN"			05/06/2023	"Tomaso"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling Tomaso Kanoen"	0,00€	7,00€	R	733,55€
-"ABN"			06/06/2023	"Other"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Markt 33 - Diner met Vrienden afsluiting van het jaar"	50,95€	0,00€	R	682,60€
-"ABN"			07/06/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	667,60€
-"ABN"			07/06/2023	"AH"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Deodorant + Tandenpasta"	16,56€	0,00€	R	651,04€
-"ABN"			08/06/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Ijsjes Vrienden"	6,00€	0,00€	R	645,04€
-"ABN"			09/06/2023	"Karim"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Betaling Eten"	0,00€	15,00€	R	660,04€
-"ABN"			09/06/2023	"Henry H."	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Betaling Eten"	0,00€	7,50€	R	667,54€
-"ABN"			09/06/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling Kanoen Franklin"	0,00€	7,00€	R	674,54€
-"ABN"			09/06/2023	"Pieter Bas"	"Rainy Day Funds:14 Kapper"	"Rainy Day Funds"	"14 Kapper"	"Kapper"	22,50€	0,00€	R	652,04€
-"ABN"			10/06/2023	"AH"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Sandwich + drinken"	9,37€	0,00€	R	642,67€
-"ABN"			12/06/2023	"Paul Graas"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Ijsjes Massimo Gelato"	3,75€	0,00€	R	638,92€
-"ABN"			13/06/2023	"Nafisa"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Bloemen Terug!"	0,00€	9,99€	R	648,91€
-"ABN"			13/06/2023	"Niko S."	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"BBQ Dassendragers"	10,00€	0,00€	R	638,91€
-"ABN"			13/06/2023	"Lh"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Betaling Huis 1x Henry + 2x Karim"	22,50€	0,00€	R	616,41€
-"ABN"			14/06/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	601,41€
-"ABN"			15/06/2023	"Dominos"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Pizza ipv eten"	5,99€	0,00€	R	595,42€
-"ABN"			16/06/2023	"Dirk"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Batterijen remote"	1,79€	0,00€	R	593,63€
-"ABN"			16/06/2023	"Kruidvat"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Slotje voor kluis"	4,49€	0,00€	R	589,14€
-"ABN"			20/06/2023	"Belasting"	"Income:Available this month"	"Income"	"Available this month"	"Zorgtoeslag"	0,00€	155,00€	R	744,14€
-"ABN"			21/06/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	729,14€
-"ABN"			23/06/2023	"Amsta"	"Income:Available this month"	"Income"	"Available this month"	"Uitbetaling 10 dagen stage"	0,00€	213,30€	R	942,44€
-"ABN"			23/06/2023	"Boulder"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Boulderen + Bier"	23,00€	0,00€	R	919,44€
-"ABN"			24/06/2023	"Perry"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Balpomp van Perry"	7,98€	0,00€	R	911,46€
-"ABN"			28/06/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	896,46€
-"ABN"			01/07/2023	"Hmng"	"Income:Available this month"	"Income"	"Available this month"	"Zakgeld + Pension"	0,00€	700,00€	R	1596,46€
-"ABN"			01/07/2023	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	2,50€	0,00€	R	1593,96€
-"ABN"			01/07/2023	"Danny"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"BBQ WJD"	7,00€	0,00€	R	1586,96€
-"ABN"			02/07/2023	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	2,50€	0,00€	R	1584,46€
-"ABN"			05/07/2023	"Other"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Pasfotos voor Rijbewijs"	12,50€	0,00€	R	1571,96€
-"ABN"			05/07/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	1556,96€
-"ABN"			05/07/2023	"GGD Amsterdam"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Rijbewijs"	48,15€	0,00€	R	1508,81€
-"ABN"			05/07/2023	"Gürel"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Latste 1,5 uur les (Rijles)"	82,50€	0,00€	R	1426,31€
-"ABN"			08/07/2023	"Bizkaibus"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Vervoer aeropuerto-intermodal"	3,00€	0,00€	R	1423,31€
-"ABN"			08/07/2023	"Bilbbo"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Lunch"	6,30€	0,00€	R	1417,01€
-"ABN"			08/07/2023	"Cuadrabus"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Bilbo-iruña"	9,05€	0,00€	R	1407,96€
-"ABN"			08/07/2023	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Betaling Juli"	147,00€	0,00€	R	1260,96€
-"ABN"			10/07/2023	"Other"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Jabon, Tandenborstel, Scheermessen"	11,53€	0,00€	R	1249,43€
-"ABN"			12/07/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	1234,43€
-"ABN"			17/07/2023	"Opticien"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Maandlenzen voor 3 maanden + vloeistoff"	62,50€	0,00€	R	1171,93€
-"ABN"			19/07/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	1156,93€
-"ABN"			20/07/2023	"Belasting"	"Income:Available this month"	"Income"	"Available this month"	"Zorgtoeslag"	0,00€	155,00€	R	1311,93€
-"ABN"			20/07/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Bier"	5,00€	0,00€	R	1306,93€
-"ABN"			25/07/2023	"Amsta"	"Income:Available next month"	"Income"	"Available next month"	"Uitbetaling stage amsta"	0,00€	74,51€	R	1381,44€
-"ABN"			26/07/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	1366,44€
-"ABN"			26/07/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Santuario loyola, Kaartjes voor iedereen (8 man)"	40,00€	0,00€	R	1326,44€
-"ABN"			28/07/2023	"Renfe"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Betaling Trein"	2,90€	0,00€	R	1323,54€
-"ABN"			29/07/2023	"Renfe"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Betaling Trein"	53,70€	0,00€	R	1269,84€
-"ABN"			30/07/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Bier Nederlandse groep (12 man) bar madrid"	82,83€	0,00€	R	1187,01€
-"ABN"			02/08/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	1172,01€
-"ABN"			03/08/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Ijsjes voor mensen"	10,00€	0,00€	R	1162,01€
-"ABN"			05/08/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Hapjes voor wjd"	2,50€	0,00€	R	1159,51€
-"ABN"			05/08/2023	"Pingo Doce"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Avondeten (eig vrijdag)"	7,57€	0,00€	R	1151,94€
-"ABN"			05/08/2023	"Continente"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Hapjes voor WJD (later terugbetaald)"	16,39€	0,00€	R	1135,55€
-"ABN"			05/08/2023	"Other"	"Rainy Day Funds:13 Kleding/Fiets"	"Rainy Day Funds"	"13 Kleding/Fiets"	"Riem in portugal"	30,00€	0,00€	R	1105,55€
-"ABN"			07/08/2023	"Jos Bischops"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terubetaling Bier Madrid"	0,00€	5,00€	R	1110,55€
-"ABN"			07/08/2023	"M. Gascon"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling Bier Madrid"	0,00€	5,00€	R	1115,55€
-"ABN"			07/08/2023	"Max Laurentius"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling Bier Madrid"	0,00€	5,00€	R	1120,55€
-"ABN"			08/08/2023	"Other"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Bus Fatima-> Lissabon"	11,70€	0,00€	R	1108,85€
-"ABN"			08/08/2023	"Other"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Geld Opnemen"	20,00€	0,00€	R	1088,85€
-"ABN"			09/08/2023	"Other"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Geld Opnemen"	10,00€	0,00€	R	1078,85€
-"ABN"			09/08/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	1063,85€
-"ABN"			10/08/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Bier met Andoni"	5,90€	0,00€	R	1057,95€
-"ABN"			10/08/2023	"Other"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Avondeten in vliegveld"	13,50€	0,00€	R	1044,45€
-"ABN"			16/08/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"?? Vergeten"	10,60€	0,00€	R	1033,85€
-"ABN"			16/08/2023	"Juleon Schins"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Juleon Squash"	15,00€	0,00€	R	1018,85€
-"ABN"			17/08/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Ijsjes voor iedereen"	14,10€	0,00€	R	1004,75€
-"ABN"			18/08/2023	"Corte Ingles"	"Rainy Day Funds:13 Kleding/Fiets"	"Rainy Day Funds"	"13 Kleding/Fiets"	"Kleding"	109,14€	0,00€	R	895,61€
-"ABN"			20/08/2023	"Belasting"	"Income:Available this month"	"Income"	"Available this month"	"Zorgtoeslag"	0,00€	155,00€	R	1050,61€
-"ABN"			21/08/2023	"Elie"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling Elie eten"	0,00€	16,39€	R	1067,00€
-"ABN"			24/08/2023	"Corte Ingles"	"Rainy Day Funds:13 Kleding/Fiets"	"Rainy Day Funds"	"13 Kleding/Fiets"	"2 paar schoenen"	175,90€	0,00€	R	891,10€
-"ABN"			25/08/2023	"Luiz Mu"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Bus naar Bilbao"	9,05€	0,00€	R	882,05€
-"ABN"			26/08/2023	"Bizkaibus"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Bus naar vliegveld"	3,00€	0,00€	R	879,05€
-"ABN"			26/08/2023	"Other"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Jamon voor Lh"	8,97€	0,00€	R	870,08€
-"ABN"			26/08/2023	"BurgerKing"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Burger menu met Numerairs"	10,46€	0,00€	R	859,62€
-"ABN"			30/08/2023	"Amsterdam"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Parkeren A'dam"	26,00€	0,00€	R	833,62€
-"ABN"			31/08/2023	"Aimee"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Eten BBQ vrieden"	11,75€	0,00€	R	821,87€
-"ABN"			01/09/2023	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Pension"	0,00€	0,00€	R	821,87€
-"ABN"			01/09/2023	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	3,00€	0,00€	R	818,87€
-"ABN"			01/09/2023	"AH"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Reunie Borrel Bier + Friet"	23,76€	0,00€	R	795,11€
-"ABN"			04/09/2023	"A Veldhuisen"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Parkeren terugbetalen Aimee"	0,00€	3,00€	R	798,11€
-"ABN"			04/09/2023	"Emanuel R."	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Parkeren terugbetalen"	0,00€	3,00€	R	801,11€
-"ABN"			04/09/2023	"J Drunen"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Parkeren terugbetalen"	0,00€	3,00€	R	804,11€
-"ABN"			04/09/2023	"J Kempers"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Parkeren terugbetalen Kempers"	0,00€	3,00€	R	807,11€
-"ABN"			04/09/2023	"Onur"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Terugebetaling Onur"	0,00€	3,00€	R	810,11€
-"ABN"			04/09/2023	"Bar Boele"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"2 Biertjes"	7,00€	0,00€	R	803,11€
-"ABN"			04/09/2023	"AH"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Bier Met Nicholaas "	39,89€	0,00€	R	763,22€
-"ABN"			05/09/2023	"Kruidvat"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Waterdichte Spray"	2,99€	0,00€	R	760,23€
-"ABN"			05/09/2023	"McDonalds"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"MacDonalds Strand"	41,10€	0,00€	R	719,13€
-"ABN"			06/09/2023	"Paul Graas"	"Income:Available this month"	"Income"	"Available this month"	"Terugbetaling Reis WJD"	0,00€	150,00€	R	869,13€
-"ABN"			08/09/2023	"Pieter Bas"	"Rainy Day Funds:14 Kapper"	"Rainy Day Funds"	"14 Kapper"	"Kappertje"	22,50€	0,00€	R	846,63€
-"ABN"			09/09/2023	"Marktcafe"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"2 Biertjes met Medina Munster"	6,80€	0,00€	R	839,83€
-"ABN"			11/09/2023	"Strandpaviljoen"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Eten Strand vrienden"	93,90€	0,00€	R	745,93€
-"ABN"			12/09/2023	"Strandpaviljoen"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling Patrick"	0,00€	24,45€	R	770,38€
-"ABN"			12/09/2023	"Strandpaviljoen"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling Medina"	0,00€	23,25€	R	793,63€
-"ABN"			14/09/2023	"Strandpaviljoen"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling Vicente"	0,00€	26,75€	R	820,38€
-"ABN"			14/09/2023	"Bol.com"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Puzzel club"	20,58€	0,00€	R	799,80€
-"ABN"			16/09/2023	"Ethos"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Scheermesjes"	7,99€	0,00€	R	791,81€
-"ABN"			16/09/2023	"Apple"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Oortjes"	29,00€	0,00€	R	762,81€
-"ABN"			17/09/2023	"Alfonso"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Terugbetaling MCdonalds Fons"	0,00€	10,20€	R	773,01€
-"ABN"			17/09/2023	"Patrick"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Terugbetaling McDonalds Patrick"	0,00€	10,20€	R	783,21€
-"ABN"			17/09/2023	"Tomaso"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Terugbetaling McDonald Tomaso"	0,00€	10,20€	R	793,41€
-"ABN"			19/09/2023	"VU"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"AvondMaaltijd met Younan"	8,52€	0,00€	R	784,89€
-"ABN"			19/09/2023	"Blauwe Theehuis"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Drankje met Emanuel"	8,75€	0,00€	R	776,14€
-"ABN"			20/09/2023	"Belasting"	"Income:Available this month"	"Income"	"Available this month"	"Zorgtoeslag"	0,00€	155,00€	R	931,14€
-"ABN"			20/09/2023	"Gollem"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Voorgeschoten iedereen"	27,60€	0,00€	R	903,54€
-"ABN"			20/09/2023	"TennisBuitenveldert"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Tennis met Hadi"	56,00€	0,00€	R	847,54€
-"ABN"			21/09/2023	"TennisBuitenveldert"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Terugbetaling half Hadi"	0,00€	28,00€	R	875,54€
-"ABN"			21/09/2023	"Sarah B."	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Cadeuatje Thomas"	5,35€	0,00€	R	870,19€
-"ABN"			22/09/2023	"Overheid"	"Income:Available next month"	"Income"	"Available next month"	"Studiefinanciering"	0,00€	439,20€	R	1309,39€
-"ABN"			22/09/2023	"Lh"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Betaling 2 kaartjes"	0,00€	24,00€	R	1333,39€
-"ABN"			22/09/2023	"M. Gascon"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Kaartje gekocht"	0,00€	17,00€	R	1350,39€
-"ABN"			22/09/2023	"Danique Eijsbouts"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling Danique"	0,00€	5,80€	R	1356,19€
-"ABN"			22/09/2023	"Ramy Ktlama"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling Ramy"	0,00€	5,80€	R	1361,99€
-"ABN"			22/09/2023	"M. Ktllama"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling Mariam"	0,00€	4,10€	R	1366,09€
-"ABN"			22/09/2023	"M. Lubach"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling Marijke L."	0,00€	4,10€	R	1370,19€
-"ABN"			22/09/2023	"Randy Do"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling Rendy"	0,00€	3,10€	R	1373,29€
-"ABN"			22/09/2023	"Lh"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Terugbetaling waterdichte spray"	0,00€	2,99€	R	1376,28€
-"ABN"			24/09/2023	"Alfonso"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Betaling bierkaartje"	0,00€	17,00€	R	1393,28€
-"ABN"			24/09/2023	"Paul Graas"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Betaling Bierkaartje Paul"	0,00€	17,00€	R	1410,28€
-"ABN"			24/09/2023	"Tomaso"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Betaling Bierkaartje"	0,00€	17,00€	R	1427,28€
-"ABN"			24/09/2023	"Alfonso"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Terugbetaling Aquarius Fons"	0,00€	4,39€	R	1431,67€
-"ABN"			24/09/2023	"AH"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Planken en drankjes fons ziek"	7,11€	0,00€	R	1424,56€
-"ABN"			26/09/2023	"Lucs Schoennmakkerij"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Rubber bescherming schoenen dustin"	32,95€	0,00€	R	1391,61€
-"ABN"			29/09/2023	"AH"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Kopen Grolsch en Amstel in promotie"	34,28€	0,00€	R	1357,33€
-"ABN"			30/09/2023	"Massimo"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Ijsje Yann-Antuan"	4,80€	0,00€	R	1352,53€
-"ABN"			01/10/2023	"Henrique Gomes"	"Income:Available this month"	"Income"	"Available this month"	"Zakgeld"	0,00€	300,00€	R	1652,53€
-"ABN"			01/10/2023	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	3,00€	0,00€	R	1649,53€
-"ABN"			02/10/2023	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Pension"	312,00€	0,00€	R	1337,53€
-"ABN"			03/10/2023	"Julian Dahy"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Betaling bierkaartje Julian"	0,00€	17,00€	R	1354,53€
-"ABN"			03/10/2023	"AH"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Rare Lunch"	5,13€	0,00€	R	1349,40€
-"ABN"			05/10/2023	"Primera"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	" Zegels (10)"	10,10€	0,00€	R	1339,30€
-"ABN"			05/10/2023	"Ethos"	"Rainy Day Funds:10 Gezondheid"	"Rainy Day Funds"	"10 Gezondheid"	"Lenzen"	18,35€	0,00€	R	1320,95€
-"ABN"			07/10/2023	"Maria"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Cadeau Ouders 25 jaar"	9,00€	0,00€	R	1311,95€
-"ABN"			08/10/2023	"BeestBoulders"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Boulderen"	15,00€	0,00€	R	1296,95€
-"ABN"			15/10/2023	"NKZP"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Najaarsbijeenkomst"	17,50€	0,00€	R	1279,45€
-"ABN"			15/10/2023	"Ramy Ktlama"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Betaling voor mijzelf en 2 vrienden voetbal"	55,50€	0,00€	R	1223,95€
-"ABN"			16/10/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Baklava voor Ramy en de rest"	7,50€	0,00€	R	1216,45€
-"ABN"			19/10/2023	"SOKA"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Zonnewende (wordt gedeclareerd)"	80,00€	0,00€	R	1136,45€
-"ABN"			20/10/2023	"Belasting"	"Income:Available this month"	"Income"	"Available this month"	"Zorgtoeslag"	0,00€	155,00€	R	1291,45€
-"ABN"			20/10/2023	"Other"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Hamburger"	4,00€	0,00€	R	1287,45€
-"ABN"			22/10/2023	"Overheid"	"Income:Available next month"	"Income"	"Available next month"	"Studiefinanciering"	0,00€	439,20€	R	1726,65€
-"ABN"			22/10/2023	"Lh"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Terugbetaling Lh Zonnewende"	0,00€	80,00€	R	1806,65€
-"ABN"			27/10/2023	"AH"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Brownies voor Mvr Bakker"	6,17€	0,00€	R	1800,48€
-"ABN"			31/10/2023	"Dirk"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Lunch Dough Not"	4,90€	0,00€	R	1795,58€
-"ABN"			01/11/2023	"Hmng"	"Income:Available this month"	"Income"	"Available this month"	"Zakgeld + Pension"	0,00€	300,00€	R	2095,58€
-"ABN"			01/11/2023	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	3,00€	0,00€	R	2092,58€
-"ABN"			01/11/2023	"AH"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Bier voor Lh"	4,79€	0,00€	R	2087,79€
-"ABN"			01/11/2023	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Pension"	665,00€	0,00€	R	1422,79€
-"ABN"			03/11/2023	"Other"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Matteo Mello en Ramy die niet gekomen zijn naar KJD"	30,00€	0,00€	R	1392,79€
-"ABN"			07/11/2023	"Other"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Krakow Vervoer en Toilet"	3,64€	0,00€	R	1389,15€
-"ABN"			08/11/2023	"Other"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Flesopener uit krakow"	2,75€	0,00€	R	1386,40€
-"ABN"			08/11/2023	"Vriendin Lowik"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Bloemen, Chantal, Jair, Ebru"	15,00€	0,00€	R	1371,40€
-"ABN"			08/11/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Sigaar"	20,91€	0,00€	R	1350,49€
-"ABN"			10/11/2023	"Ethos"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Scheermessen"	6,89€	0,00€	R	1343,60€
-"ABN"			10/11/2023	"Blokker"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Broodtrommel"	12,99€	0,00€	R	1330,61€
-"ABN"			10/11/2023	"Lilian Optiek"	"Rainy Day Funds:10 Gezondheid"	"Rainy Day Funds"	"10 Gezondheid"	"Lenzenvloeistof"	18,50€	0,00€	R	1312,11€
-"ABN"			10/11/2023	"AH"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"3 Shampoos, Vaseline, Aftershave"	32,33€	0,00€	R	1279,78€
-"ABN"			12/11/2023	"Bol.com"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Zeepdoosje"	16,98€	0,00€	R	1262,80€
-"ABN"			12/11/2023	"NS"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Utrecht sochtends"	20,00€	0,00€	R	1242,80€
-"ABN"			15/11/2023	"KCOV"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Concert KCOV"	39,00€	0,00€	R	1203,80€
-"ABN"			18/11/2023	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Bananen"	1,92€	0,00€	R	1201,88€
-"ABN"			19/11/2023	"Other"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Museumkaart"	69,00€	0,00€	R	1132,88€
-"ABN"			20/11/2023	"Belasting"	"Income:Available this month"	"Income"	"Available this month"	"Zorgtoeslag"	0,00€	155,00€	R	1287,88€
-"ABN"			22/11/2023	"Overheid"	"Income:Available next month"	"Income"	"Available next month"	"Studiefinanciering"	0,00€	439,20€	R	1727,08€
-"ABN"			22/11/2023	"Albert heijn"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Bier Gekocht"	25,85€	0,00€	R	1701,23€
-"ABN"			24/11/2023	"Juleon Schins"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Terugbetaling Juleon"	0,00€	4,50€	R	1705,73€
-"ABN"			24/11/2023	"SquashCity"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Balletje"	4,50€	0,00€	R	1701,23€
-"ABN"			24/11/2023	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Taart Adolfo"	36,14€	0,00€	R	1665,09€
-"ABN"			28/11/2023	"Bol.com"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Cadeau Alfonso"	16,95€	0,00€	R	1648,14€
-"ABN"			29/11/2023	"MFVU"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Ticket OpenPodium"	4,00€	0,00€	R	1644,14€
-"ABN"			29/11/2023	"Alice"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Bloemen Floor"	11,50€	0,00€	R	1632,64€
-"ABN"			29/11/2023	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Ronde biertjes"	23,05€	0,00€	R	1609,59€
-"ABN"			01/12/2023	"Hmng"	"Income:Available this month"	"Income"	"Available this month"	"Zakgeld + Pension"	0,00€	300,00€	R	1909,59€
-"ABN"			01/12/2023	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	3,00€	0,00€	R	1906,59€
-"ABN"			03/12/2023	"Albert heijn"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Perpernoten Fons"	0,79€	0,00€	R	1905,80€
-"ABN"			06/12/2023	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Nivea Creme"	8,99€	0,00€	R	1896,81€
-"ABN"			06/12/2023	"Steam"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Spel KSP"	9,99€	0,00€	R	1886,82€
-"ABN"			06/12/2023	"Schmidt Optiek"	"Rainy Day Funds:10 Gezondheid"	"Rainy Day Funds"	"10 Gezondheid"	"Lenzen Schmidt Optiek"	72,00€	0,00€	R	1814,82€
-"ABN"			07/12/2023	"Paul Graas"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Terugbetaling Helft Diabetestaart"	0,00€	15,00€	R	1829,82€
-"ABN"			07/12/2023	"Anne Kloosterhuis"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Terugbetaling Bloemen Anne"	0,00€	0,90€	R	1830,72€
-"ABN"			07/12/2023	"Ayoub"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Terugbetaling Bloemen Ayoub"	0,00€	0,90€	R	1831,62€
-"ABN"			07/12/2023	"Nisha Niam"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Terugbetaling Bloemen Nisha"	0,00€	0,90€	R	1832,52€
-"ABN"			07/12/2023	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Pension"	665,00€	0,00€	R	1167,52€
-"ABN"			08/12/2023	"Pedro"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"KSP betaling helft"	0,00€	5,00€	R	1172,52€
-"ABN"			08/12/2023	"Max (GNK)"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Terugbetaling Bloemen Max"	0,00€	0,90€	R	1173,42€
-"ABN"			08/12/2023	"Melat Hailu"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Terugbetaling Bloemen Melat"	0,00€	0,90€	R	1174,32€
-"ABN"			08/12/2023	"Suhayl Nawa"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Terugbetaling Bloemen Suhayl"	0,00€	0,90€	R	1175,22€
-"ABN"			09/12/2023	"Stijntje Severijns"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Terugbetaling Bloemen Stijntje"	0,00€	0,90€	R	1176,12€
-"ABN"			10/12/2023	"SOKA"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Bezinningsdagen Heren"	200,00€	0,00€	R	976,12€
-"ABN"			11/12/2023	"Hmng"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Terugbetaling SOKA"	0,00€	200,00€	R	1176,12€
-"ABN"			11/12/2023	"Paul Graas"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Bierkaartje Betaald"	0,00€	17,00€	R	1193,12€
-"ABN"			11/12/2023	"A Jolin"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Schoenen uit Mendaur"	48,86€	0,00€	R	1144,26€
-"ABN"			17/12/2023	"BSL"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Leerboek volksgezondheid en gezondheidszorg"	42,46€	0,00€	R	1101,80€
-"ABN"			18/12/2023	"Pieter Bas"	"Rainy Day Funds:14 Kapper"	"Rainy Day Funds"	"14 Kapper"	"Kapseltje"	24,50€	0,00€	R	1077,30€
-"ABN"			20/12/2023	"Belasting"	"Income:Available next month"	"Income"	"Available next month"	"Zorgtoeslag"	0,00€	123,00€	R	1200,30€
-"ABN"			20/12/2023	"AH"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Kerstviering"	43,73€	0,00€	R	1156,57€
-"ABN"			20/12/2023	"Stomerij Bosboom"	"Rainy Day Funds:13 Kleding/Fiets"	"Rainy Day Funds"	"13 Kleding/Fiets"	"Pakken stomen"	46,00€	0,00€	R	1110,57€
-"ABN"			20/12/2023	"KLM"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Manchester Vlucht KLM"	215,24€	0,00€	R	895,33€
-"ABN"			22/12/2023	"Overheid"	"Income:Available next month"	"Income"	"Available next month"	"Studiefinanciering"	0,00€	439,20€	R	1334,53€
-"ABN"			26/12/2023	"Henrique Gomes"	"Income:Available next month"	"Income"	"Available next month"	"Kerst Gift Opa en Oma"	0,00€	300,00€	R	1634,53€
-"ABN"			26/12/2023	"OV"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"OV Pay"	2,43€	0,00€	R	1632,10€
-"ABN"			31/12/2023	"MFVU"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling Openpodium"	0,00€	4,00€	R	1636,10€
-"ABN"			31/12/2023	"Sarah B."	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Kerstdinner vrienden"	28,00€	0,00€	R	1608,10€
-"ABN"			31/12/2023	"NS"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Opladen Saldo"	50,00€	0,00€	R	1558,10€
-"ABN"			01/01/2024	"Hmng"	"Income:Available this month"	"Income"	"Available this month"	"Zakgeld + Pension"	0,00€	300,00€	R	1858,10€
-"ABN"			01/01/2024	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	3,00€	0,00€	R	1855,10€
-"ABN"			01/01/2024	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Pension"	665,00€	0,00€	R	1190,10€
-"ABN"			02/01/2024	"Hema"	"Rainy Day Funds:13 Kleding/Fiets"	"Rainy Day Funds"	"13 Kleding/Fiets"	"Ondergoed 10 Sokken + 3 onderbroeken"	30,50€	0,00€	R	1159,60€
-"ABN"			03/01/2024	"Hmng"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Voorschot verzekering"	0,00€	125,00€	R	1284,60€
-"ABN"			03/01/2024	"KLM"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Terugbetaling Vlucht Helft"	0,00€	101,24€	R	1385,84€
-"ABN"			05/01/2024	"Jaap Eden"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Tickets Jaap Eden 1 volwassen 1 student 4 kinderen"	40,60€	0,00€	R	1345,24€
-"ABN"			06/01/2024	"A. Gunardhy"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Terugbetaling Christof"	0,00€	5,80€	R	1351,04€
-"ABN"			06/01/2024	"Sander Reijntjes"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Terugbetaling Mattias"	0,00€	5,80€	R	1356,84€
-"ABN"			06/01/2024	"Jaap Eden"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Schaatsen huren Christof"	8,00€	0,00€	R	1348,84€
-"ABN"			06/01/2024	"Adolfo"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Betaling schaats huren Francisco+Mattias"	16,00€	0,00€	R	1332,84€
-"ABN"			07/01/2024	"A. Gunardhy"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Terugbetaling schaats huren Christof"	0,00€	8,00€	R	1340,84€
-"ABN"			07/01/2024	"Sander Reijntjes"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Terugbetaling schaats huren Mattias"	0,00€	8,00€	R	1348,84€
-"ABN"			09/01/2024	"AH"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Voorkopen Bier Bierco"	37,74€	0,00€	R	1311,10€
-"ABN"			10/01/2024	"Albert heijn"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Chocolaatjes Woensdagavond Dr. Matt Post"	7,35€	0,00€	R	1303,75€
-"ABN"			10/01/2024	"SquashCity"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Sport voor rest vd maand"	28,32€	0,00€	R	1275,43€
-"ABN"			10/01/2024	"Aevitae"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Incasso van Car4Life"	123,95€	0,00€	R	1151,48€
-"ABN"			13/01/2024	"Daan"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Betaling koor Daan"	54,30€	0,00€	R	1097,18€
-"ABN"			19/01/2024	"Bar Boele"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Drankje Met Henry en Emmanuel"	10,50€	0,00€	R	1086,68€
-"ABN"			20/01/2024	"Lies Herfst"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Terugbetaling Lies Bram +daniel"	0,00€	11,60€	R	1098,28€
-"ABN"			22/01/2024	"Belasting"	"Income:Available next month"	"Income"	"Available next month"	"Zorgtoeslag"	0,00€	123,00€	R	1221,28€
-"ABN"			24/01/2024	"Overheid"	"Income:Available next month"	"Income"	"Available next month"	"Studiefinanciering"	0,00€	466,69€	R	1687,97€
-"ABN"			24/01/2024	"Albert heijn"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Lunch met Werkgroep"	7,47€	0,00€	R	1680,50€
-"ABN"			25/01/2024	"Suhayl Nawa"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Bloemen Floor"	1,33€	0,00€	R	1679,17€
-"ABN"			25/01/2024	"Ramy Ktlama"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Squash"	10,00€	0,00€	R	1669,17€
-"ABN"			26/01/2024	"SquashCity"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Maandelijkse Incasso"	39,90€	0,00€	R	1629,27€
-"ABN"			26/01/2024	"Aevitae"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Incasso ZV"	123,95€	0,00€	R	1505,32€
-"ABN"			28/01/2024	"Albert heijn"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Bloemen Nationale Holocaust Herdenking"	9,99€	0,00€	R	1495,33€
-"ABN"			29/01/2024	"NTvG"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Nederlands Tijdschrift voor geneeksunde"	6,99€	0,00€	R	1488,34€
-"ABN"			29/01/2024	"Ramy Ktlama"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Voetbal Februari"	12,00€	0,00€	R	1476,34€
-"ABN"			01/02/2024	"Hmng"	"Income:Available this month"	"Income"	"Available this month"	"Zakgeld + Pension"	0,00€	425,00€	R	1901,34€
-"ABN"			01/02/2024	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	3,00€	0,00€	R	1898,34€
-"ABN"			01/02/2024	"Trattoria Tottoa"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Henry's lunch"	79,00€	0,00€	R	1819,34€
-"ABN"			01/02/2024	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Pension"	665,00€	0,00€	R	1154,34€
-"ABN"			02/02/2024	"Christiana Kosta"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Terugbetaling eten met Henry"	0,00€	19,00€	R	1173,34€
-"ABN"			06/02/2024	"Paul Graas"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Betaling benzine"	10,00€	0,00€	R	1163,34€
-"ABN"			06/02/2024	"Consulado portugues"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Passport"	105,00€	0,00€	R	1058,34€
-"ABN"			07/02/2024	"Hmng"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Terugbetaling Vader Passport"	0,00€	105,00€	R	1163,34€
-"ABN"			07/02/2024	"Albert heijn"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Cadeau woensdagavond spreker"	12,23€	0,00€	R	1151,11€
-"ABN"			13/02/2024	"Mr Nata"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"(Split 1/4) Wanda / Pastel de Nata ST"	1,60€	0,00€	R	1122,36€
-"ABN"			13/02/2024	"Mr Nata"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"(Split 2/4) M. Gascon / Pastel de Nata ST"	1,59€	0,00€	R	1122,36€
-"ABN"			13/02/2024	"Mr Nata"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"(Split 3/4) Voorzitterschap 2de semester / Pastel de Nata ST"	17,60€	0,00€	R	1122,36€
-"ABN"			13/02/2024	"Mr Nata"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"(Split 4/4) Noa / Pastel de Nata ST"	7,96€	0,00€	R	1122,36€
-"ABN"			16/02/2024	"NS"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Vervoer boys"	17,50€	0,00€	R	1104,86€
-"ABN"			16/02/2024	"Dominos"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Pizzas club"	53,92€	0,00€	R	1050,94€
-"ABN"			16/02/2024	"AH"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Inkopen Boodschappen"	82,00€	0,00€	R	968,94€
-"ABN"			18/02/2024	"Adolfo"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Adolfo Terugbetalen"	15,89€	0,00€	R	953,05€
-"ABN"			18/02/2024	"Noa Smink?"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Verjaardag noa, dinner"	27,55€	0,00€	R	925,50€
-"ABN"			20/02/2024	"Belasting"	"Income:Available next month"	"Income"	"Available next month"	"Zorgtoeslag"	0,00€	123,00€	R	1048,50€
-"ABN"			22/02/2024	"Overheid"	"Income:Available next month"	"Income"	"Available next month"	"Studiefinanciering"	0,00€	466,69€	R	1515,19€
-"ABN"			24/02/2024	"Albert heijn"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Studentenavond OLVK"	8,58€	0,00€	R	1506,61€
-"ABN"			25/02/2024	"PaanZee"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Parkeerplek strand boys (wordt deels terugbetaald)"	7,45€	0,00€	R	1499,16€
-"ABN"			25/02/2024	"MacBIkeOvertoom"	"Rainy Day Funds:13 Kleding/Fiets"	"Rainy Day Funds"	"13 Kleding/Fiets"	"Reparatie ketting en achterste spatbord"	55,00€	0,00€	R	1444,16€
-"ABN"			27/02/2024	"Emanuel R."	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Karaoke bar"	5,00€	0,00€	R	1439,16€
-"ABN"			27/02/2024	"SquashCity"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Maandelijkse Incasso Squash"	39,90€	0,00€	R	1399,26€
-"ABN"			28/02/2024	"Aevitae"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Incasso"	123,95€	0,00€	R	1275,31€
-"ABN"			01/03/2024	"Hmng"	"Income:Available this month"	"Income"	"Available this month"	"Zakgeld + Pension"	0,00€	425,00€	R	1700,31€
-"ABN"			01/03/2024	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	3,00€	0,00€	R	1697,31€
-"ABN"			01/03/2024	"Warung Padi"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Indonesisch eten (voorbetaald)"	51,50€	0,00€	R	1645,81€
-"ABN"			01/03/2024	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Pension"	665,00€	0,00€	R	980,81€
-"ABN"			02/03/2024	"Ramy Ktlama"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Voetbalpot + eten"	18,00€	0,00€	R	962,81€
-"ABN"			03/03/2024	"Other"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Terugbetaling Indonesisch eten 1 maart"	0,00€	36,75€	R	999,56€
-"ABN"			03/03/2024	"Albert heijn"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Lunch tijdens bezinning "	6,65€	0,00€	R	992,91€
-"ABN"			04/03/2024	"NTvG"	"Monthly Bills:14 NTvG"	"Monthly Bills"	"14 NTvG"	"Tijdschrift"	6,99€	0,00€	R	985,92€
-"ABN"			04/03/2024	"Emanuel R."	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Karoke Bar"	12,00€	0,00€	R	973,92€
-"ABN"			09/03/2024	"Paul Graas"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Eten Wanda"	43,00€	0,00€	R	930,92€
-"ABN"			09/03/2024	"CJIB"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Boetes"	218,00€	0,00€	R	712,92€
-"ABN"			12/03/2024	"Alfonso"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Terugbetaling boetes"	0,00€	43,60€	R	756,52€
-"ABN"			12/03/2024	"Ramy Ktlama"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Terugbetaling Boetes"	0,00€	43,60€	R	800,12€
-"ABN"			12/03/2024	"Wanda"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Terugbetaling Boetes"	0,00€	43,60€	R	843,72€
-"ABN"			13/03/2024	"Patrick"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Terugbetaling boetes"	0,00€	43,60€	R	887,32€
-"ABN"			13/03/2024	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Zeep + scheerspullen (misschien niet nodig)"	7,98€	0,00€	R	879,34€
-"ABN"			13/03/2024	"Schmidt Optiek"	"Rainy Day Funds:10 Gezondheid"	"Rainy Day Funds"	"10 Gezondheid"	"Lenzen"	72,00€	0,00€	R	807,34€
-"ABN"			14/03/2024	"Ramy Ktlama"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Ramy's inkopen"	18,89€	0,00€	R	788,45€
-"ABN"			14/03/2024	"Bol.com"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Pionen van Bol.com"	20,95€	0,00€	R	767,50€
-"ABN"			16/03/2024	"Albert heijn"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Cadeau winnaar!"	2,99€	0,00€	R	764,51€
-"ABN"			17/03/2024	"Bisdom Haarlem"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Stille omgang"	5,00€	0,00€	R	759,51€
-"ABN"			20/03/2024	"Belasting"	"Income:Available next month"	"Income"	"Available next month"	"Zorgtoeslag"	0,00€	123,00€	R	882,51€
-"ABN"			21/03/2024	"SquashCity"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Bal squash"	4,50€	0,00€	R	878,01€
-"ABN"			21/03/2024	"Landmerk"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Alumni Avond Landmerk"	20,00€	0,00€	R	858,01€
-"ABN"			22/03/2024	"Overheid"	"Income:Available next month"	"Income"	"Available next month"	"Studiefinanciering"	0,00€	466,69€	R	1324,70€
-"ABN"			24/03/2024	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Gebakje zondag met Jose"	4,50€	0,00€	R	1320,20€
-"ABN"			24/03/2024	"Paul Graas"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Vervoer taxi naar Rome"	11,00€	0,00€	R	1309,20€
-"ABN"			26/03/2024	"Julio R. G."	"Income:Available this month"	"Income"	"Available this month"	"Aniversario"	0,00€	150,00€	R	1459,20€
-"ABN"			26/03/2024	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Bar Lepanto Chips m Jordi en Jeffrey"	1,50€	0,00€	R	1457,70€
-"ABN"			26/03/2024	"Other"	"Buisnesses:15 Niet-LH-Voorschieten"	"Buisnesses"	"15 Niet-LH-Voorschieten"	"Supermarkt inkopen (Later declareren aan P Graas)"	8,95€	0,00€	R	1448,75€
-"ABN"			26/03/2024	"Other"	"Rainy Day Funds:14 Kapper"	"Rainy Day Funds"	"14 Kapper"	"Kappen + Scheren"	34,00€	0,00€	R	1414,75€
-"ABN"			26/03/2024	"Jordi"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"(Split 1/2) Zelf / Proefschrifften Jordi (2/3)"	25,00€	0,00€	R	1349,75€
-"ABN"			26/03/2024	"Jordi"	"Buisnesses:15 Niet-LH-Voorschieten"	"Buisnesses"	"15 Niet-LH-Voorschieten"	"(Split 2/2) Jan lujken / Proefschrifften Jordi (2/3)"	40,00€	0,00€	R	1349,75€
-"ABN"			27/03/2024	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Cake Met robin"	2,60€	0,00€	R	1347,15€
-"ABN"			27/03/2024	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Gelato"	3,40€	0,00€	R	1343,75€
-"ABN"			27/03/2024	"Other"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Taarten Pauls Verjaardag"	11,70€	0,00€	R	1332,05€
-"ABN"			28/03/2024	"Other"	"Buisnesses:15 Niet-LH-Voorschieten"	"Buisnesses"	"15 Niet-LH-Voorschieten"	"Conad"	30,36€	0,00€	R	1301,69€
-"ABN"			28/03/2024	"SquashCity"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Maandelijkse Incasso Squash"	39,90€	0,00€	R	1261,79€
-"ABN"			28/03/2024	"Aevitae"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"		123,95€	0,00€	R	1137,84€
-"ABN"			30/03/2024	"ATAC"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Attac Tap&Go"	3,00€	0,00€	R	1134,84€
-"ABN"			30/03/2024	"Other"	"Everyday Expenses:14 Univ"	"Hidden Categories"	"Everyday Expenses ` 14 Univ ` A15"	"Gelato Jose"	9,00€	0,00€	R	1125,84€
-"ABN"			31/03/2024	"Lime"	"Everyday Expenses:14 Univ"	"Hidden Categories"	"Everyday Expenses ` 14 Univ ` A15"	"LimeRide 1 w/ Jose"	3,40€	0,00€	R	1122,44€
-"ABN"			01/04/2024	"Hmng"	"Income:Available this month"	"Income"	"Available this month"	"Zakgeld + Pension + Zorgverzekering"	0,00€	425,00€	R	1547,44€
-"ABN"			01/04/2024	"Joana"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Terugbetaling Joana"	0,00€	10,00€	R	1557,44€
-"ABN"			01/04/2024	"Jose"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Terugbetaling Jose"	0,00€	10,00€	R	1567,44€
-"ABN"			01/04/2024	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	3,00€	0,00€	R	1564,44€
-"ABN"			01/04/2024	"Carine"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Vervoer naar vliegveld taxi Voorbetaald Jose en Joana"	30,00€	0,00€	R	1534,44€
-"ABN"			01/04/2024	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Pension"	665,00€	0,00€	R	869,44€
-"ABN"			02/04/2024	"Paul Graas"	"Buisnesses:15 Niet-LH-Voorschieten"	"Buisnesses"	"15 Niet-LH-Voorschieten"	"Terugvbetaling ontbijten"	0,00€	39,36€	R	908,80€
-"ABN"			02/04/2024	"Lime"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Incasso 2 28.03.24 00.53?"	2,50€	0,00€	R	906,30€
-"ABN"			02/04/2024	"Lime"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"28.3.24/08.14"	3,10€	0,00€	R	903,20€
-"ABN"			02/04/2024	"Lime"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"31.03.24 / 01.35"	4,30€	0,00€	R	898,90€
-"ABN"			02/04/2024	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Sardientjes voor een zwerver"	4,47€	0,00€	R	894,43€
-"ABN"			02/04/2024	"Lime"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"31.03.24 / 06.31"	4,90€	0,00€	R	889,53€
-"ABN"			02/04/2024	"Lime"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"30.03.24 / 18.12 Richting Campo Santo?"	5,50€	0,00€	R	884,03€
-"ABN"			02/04/2024	"Albert heijn"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Spullen medicijnkast"	8,48€	0,00€	R	875,55€
-"ABN"			02/04/2024	"Etos"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Nivea creme"	11,19€	0,00€	R	864,36€
-"ABN"			02/04/2024	"Ethos"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Spullen medicijnkast"	32,97€	0,00€	R	831,39€
-"ABN"			03/04/2024	"NTvG"	"Monthly Bills:14 NTvG"	"Monthly Bills"	"14 NTvG"	"Incasso"	6,99€	0,00€	R	824,40€
-"ABN"			05/04/2024	"Vicente"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Dubbel betaling vicente"	0,00€	34,00€	R	858,40€
-"ABN"			05/04/2024	"Lh"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Betaling kaartje"	0,00€	17,00€	R	875,40€
-"ABN"			05/04/2024	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Biertje met Hamlin"	7,25€	0,00€	R	868,15€
-"ABN"			05/04/2024	"Albert heijn"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Eten met Hamlino en wande (deels voorgeschoten)"	32,72€	0,00€	R	835,43€
-"ABN"			06/04/2024	"Hamlin"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Terugbetlaing eten Hamlin"	0,00€	10,90€	R	846,33€
-"ABN"			06/04/2024	"Wanda"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Terugbetaling eten Wanda"	0,00€	10,90€	R	857,23€
-"ABN"			06/04/2024	"Albert heijn"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Cadeau Joost v Halem"	8,09€	0,00€	R	849,14€
-"ABN"			08/04/2024	"Simon Meyssen"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Taarten Daan"	35,70€	0,00€	R	813,44€
-"ABN"			09/04/2024	"HAPAmstelveld"	"Income:Available this month"	"Income"	"Available this month"	"Betaling werk"	0,00€	512,00€	R	1325,44€
-"ABN"			10/04/2024	"Hema"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Twee aantekeningsboekjes"	8,00€	0,00€	R	1317,44€
-"ABN"			10/04/2024	"Albert heijn"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Uitgave bieren"	21,25€	0,00€	R	1296,19€
-"ABN"			11/04/2024	"Paul Graas"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Terugstorting overschot UNIV"	0,00€	242,00€	R	1538,19€
-"ABN"			11/04/2024	"Alfonso"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Terugbetaling fons deel cadeau J v Halem"	0,00€	4,04€	R	1542,23€
-"ABN"			12/04/2024	"BeestBoulders"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Wordt teruggestoort"	18,00€	0,00€	R	1524,23€
-"ABN"			12/04/2024	"BeBoulder"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Klimmen met vrienden"	20,50€	0,00€	R	1503,73€
-"ABN"			13/04/2024	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"2 Deos"	5,99€	0,00€	R	1497,74€
-"ABN"			14/04/2024	"Jordi"	"Everyday Expenses:14 Univ"	"Hidden Categories"	"Everyday Expenses ` 14 Univ ` A15"	"Eten 1e dag (betaald door mijn pa)"	33,00€	0,00€	R	1464,74€
-"ABN"			14/04/2024	"Noa"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"2 Bugers 2 bier met Emanuel, Later betaalt hij mij"	41,78€	0,00€	R	1422,96€
-"ABN"			17/04/2024	"Mr Nata"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Pastel de nata voor Eren"	5,90€	0,00€	R	1417,06€
-"ABN"			17/04/2024	"MacBIkeOvertoom"	"Rainy Day Funds:13 Kleding/Fiets"	"Rainy Day Funds"	"13 Kleding/Fiets"	"Band lek"	14,50€	0,00€	R	1402,56€
-"ABN"			20/04/2024	"Belasting"	"Income:Available next month"	"Income"	"Available next month"	"Zorgtoeslag"	0,00€	123,00€	R	1525,56€
-"ABN"			22/04/2024	"Overheid"	"Income:Available next month"	"Income"	"Available next month"	"Studiefinanciering"	0,00€	466,69€	R	1992,25€
-"ABN"			26/04/2024	"SquashCity"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Maandelijkse Incasso Squash"	39,90€	0,00€	R	1952,35€
-"ABN"			26/04/2024	"Aevitae"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Incasso"	123,95€	0,00€	R	1828,40€
-"ABN"			29/04/2024	"NTvG"	"Monthly Bills:14 NTvG"	"Monthly Bills"	"14 NTvG"	"Incasso NTvG"	6,99€	0,00€	R	1821,41€
-"ABN"			30/04/2024	"HAPAmstelveld"	"Income:Available next month"	"Income"	"Available next month"	"Betaling Huisartsenpraktijk"	0,00€	448,00€	R	2269,41€
-"ABN"			30/04/2024	"Alfonso"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling JCC Fons"	0,00€	20,00€	R	2289,41€
-"ABN"			30/04/2024	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Avondeten na Cursus"	5,99€	0,00€	R	2283,42€
-"ABN"			30/04/2024	"JCC"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Museum bezoek voorbetaald Alfonso en Tommaso"	40,00€	0,00€	R	2243,42€
-"ABN"			01/05/2024	"Hmng"	"Income:Available this month"	"Income"	"Available this month"	"Zakgeld + Pension"	0,00€	425,00€	R	2668,42€
-"ABN"			01/05/2024	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	3,00€	0,00€	R	2665,42€
-"ABN"			01/05/2024	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Donuts Wanda en Patrick"	5,52€	0,00€	R	2659,90€
-"ABN"			01/05/2024	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Pension"	665,00€	0,00€	R	1994,90€
-"ABN"			02/05/2024	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"2 Drankjes + appeltaart met vriend"	14,80€	0,00€	R	1980,10€
-"ABN"			03/05/2024	"SquashCity"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Balletje squash"	4,50€	0,00€	R	1975,60€
-"ABN"			05/05/2024	"Surfspot"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Licentie SPSS"	6,99€	0,00€	R	1968,61€
-"ABN"			06/05/2024	"Tomaso"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling Tommaso JCC"	0,00€	20,00€	R	1988,61€
-"ABN"			06/05/2024	"Surfspot"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"2de Licentie @$!!£åœ!!"	12,00€	0,00€	R	1976,61€
-"ABN"			06/05/2024	"VUsap"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Cursus VUsap"	85,00€	0,00€	R	1891,61€
-"ABN"			07/05/2024	"Richard Doornik"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Terugbetaling Foforrest Richard Doornik"	0,00€	25,95€	R	1917,56€
-"ABN"			07/05/2024	"FunForrest"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"FunForrest"	187,65€	0,00€	R	1729,91€
-"ABN"			08/05/2024	"Het Pleintje UMC"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Eten voorbetaald chris"	3,20€	0,00€	R	1726,71€
-"ABN"			08/05/2024	"Het Pleintje UMC"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Eten"	5,65€	0,00€	R	1721,06€
-"ABN"			09/05/2024	"Sander Reijntjes"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Terugbetaling Funforrest Sander Reijntjes "	0,00€	25,95€	R	1747,01€
-"ABN"			09/05/2024	"M. Gascon"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Kaartje M. Gascon"	0,00€	17,00€	R	1764,01€
-"ABN"			09/05/2024	"Patrick"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Kaartje Patrick"	0,00€	17,00€	R	1781,01€
-"ABN"			09/05/2024	"Paul Graas"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Kaartje Paul"	0,00€	17,00€	R	1798,01€
-"ABN"			09/05/2024	"Ramy Ktlama"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Kaartje Ramy"	0,00€	17,00€	R	1815,01€
-"ABN"			09/05/2024	"Het Pleintje UMC"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"terugbetaling christ"	0,00€	3,20€	R	1818,21€
-"ABN"			10/05/2024	"Delia Richardson"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"Terugbetaling Delia klimmen fun forrest"	0,00€	25,95€	R	1844,16€
-"ABN"			11/05/2024	"Alfonso"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Kaartje Fons"	0,00€	17,00€	R	1861,16€
-"ABN"			11/05/2024	"Jordi"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Keeper Handschoenen medebetaling"	3,50€	0,00€	R	1857,66€
-"ABN"			11/05/2024	"FunForrest"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Lekkernijen fun forrest met kids"	9,95€	0,00€	R	1847,71€
-"ABN"			14/05/2024	"Goethe"	"Savings Goals:Reis"	"Savings Goals"	"Reis"	"Cursus Goethe"	325,00€	0,00€	R	1522,71€
-"ABN"			15/05/2024	"Etos"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Tandenstokken"	7,39€	0,00€	R	1515,32€
-"ABN"			21/05/2024	"Belasting"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Zorgtoeslag"	0,00€	124,00€	R	1639,32€
-"ABN"			22/05/2024	"Bar Boele"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Symposium biertje"	5,90€	0,00€	R	1633,42€
-"ABN"			23/05/2024	"Mr Nata"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Pastel de Nata Rahaf"	1,95€	0,00€	R	1631,47€
-"ABN"			24/05/2024	"Overheid"	"Income:Available next month"	"Income"	"Available next month"	"Studiefinanciering"	0,00€	466,69€	R	2098,16€
-"ABN"			27/05/2024	"SquashCity"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Grip Racket"	5,00€	0,00€	R	2093,16€
-"ABN"			27/05/2024	"SquashCity"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Maandelijkse Incasso Squash"	39,90€	0,00€	R	2053,26€
-"ABN"			27/05/2024	"SocialDeal"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Dinner met vrienden (1e deel)"	245,00€	0,00€	R	1808,26€
-"ABN"			28/05/2024	"Aevitae"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"		123,95€	0,00€	R	1684,31€
-"ABN"			29/05/2024	"Goethe"	"Savings Goals:Reis"	"Savings Goals"	"Reis"	"Terugbetaling Goethe (cursus geannuleerd)"	0,00€	325,00€	R	2009,31€
-"ABN"			29/05/2024	"Albert heijn"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Bier voor de hause"	28,23€	0,00€	R	1981,08€
-"ABN"			31/05/2024	"HAPAmstelveld"	"Income:Available next month"	"Income"	"Available next month"	"Betaling werk"	0,00€	576,00€	R	2557,08€
-"ABN"			31/05/2024	"Buona Sera"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Dranken dinner vrienden"	89,45€	0,00€	R	2467,63€
-"ABN"			01/06/2024	"Hmng"	"Income:Available this month"	"Income"	"Available this month"	"Zakgeld + Pension"	0,00€	425,00€	R	2892,63€
-"ABN"			01/06/2024	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Statiegeld"	0,00€	5,20€	R	2897,83€
-"ABN"			01/06/2024	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	3,00€	0,00€	R	2894,83€
-"ABN"			01/06/2024	"Simon Meyssen"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Coockie en brood nich"	7,35€	0,00€	R	2887,48€
-"ABN"			01/06/2024	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Pension"	665,00€	0,00€	R	2222,48€
-"ABN"			03/06/2024	"NTvG"	"Monthly Bills:14 NTvG"	"Monthly Bills"	"14 NTvG"	"Incasso NTvG"	6,99€	0,00€	R	2215,49€
-"ABN"			04/06/2024	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Zak"	0,69€	0,00€	R	2214,80€
-"ABN"			05/06/2024	"Wanda"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Boek Frederik"	8,25€	0,00€	R	2206,55€
-"ABN"			05/06/2024	"Wanda"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Pannekoeken"	9,00€	0,00€	R	2197,55€
-"ABN"			07/06/2024	"Coop"	"Buisnesses:15 Niet-LH-Voorschieten"	"Buisnesses"	"15 Niet-LH-Voorschieten"	"Wijn"	4,89€	0,00€	R	2192,66€
-"ABN"			07/06/2024	"Coop"	"Buisnesses:15 Niet-LH-Voorschieten"	"Buisnesses"	"15 Niet-LH-Voorschieten"	"Supermarkt Inkopen weekend"	95,54€	0,00€	R	2097,12€
-"ABN"			08/06/2024	"Coop"	"Buisnesses:15 Niet-LH-Voorschieten"	"Buisnesses"	"15 Niet-LH-Voorschieten"	"Inkopen zaterdagochtend"	8,81€	0,00€	R	2088,31€
-"ABN"			09/06/2024	"Bol.com"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Boek Duits B1"	15,22€	0,00€	R	2073,09€
-"ABN"			11/06/2024	"Lucs Schoennmakkerij"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"Schoensmeer"	13,00€	0,00€	R	2060,09€
-"ABN"			12/06/2024	"Maria"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Amaretto"	4,75€	0,00€	R	2055,34€
-"ABN"			12/06/2024	"Stichting Keizersgracht"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Huur zaal keizersgracht"	80,00€	0,00€	R	1975,34€
-"ABN"			14/06/2024	"Stomerij Bosboom"	"Rainy Day Funds:13 Kleding/Fiets"	"Rainy Day Funds"	"13 Kleding/Fiets"	"Stomen 2 pakken"	46,00€	0,00€	R	1929,34€
-"ABN"			16/06/2024	"NS"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Opladen saldo"	50,00€	0,00€	R	1879,34€
-"ABN"			17/06/2024	"VU"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Lunch"	3,20€	0,00€	R	1876,14€
-"ABN"			18/06/2024	"VU"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Snack"	1,25€	0,00€	R	1874,89€
-"ABN"			19/06/2024	"VU"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Lunch"	3,20€	0,00€	R	1871,69€
-"ABN"			19/06/2024	"SHUAL"	"Rainy Day Funds:13 Kleding/Fiets"	"Rainy Day Funds"	"13 Kleding/Fiets"	"Sokken"	20,00€	0,00€	R	1851,69€
-"ABN"			20/06/2024	"Belasting"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Zorgtoeslag"	0,00€	124,00€	R	1975,69€
-"ABN"			22/06/2024	"Overheid"	"Income:Available next month"	"Income"	"Available next month"	"Studiefinanciering"	0,00€	466,69€	R	2442,38€
-"ABN"			26/06/2024	"VU"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Lunch"	3,20€	0,00€	R	2439,18€
-"ABN"			26/06/2024	"AH"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Biercomissie"	37,15€	0,00€	R	2402,03€
-"ABN"			27/06/2024	"AH"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Avondeten"	5,75€	0,00€	R	2396,28€
-"ABN"			28/06/2024	"AH"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Statiegeld"	0,00€	9,80€	R	2406,08€
-"ABN"			28/06/2024	"VU"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Snack"	2,00€	0,00€	R	2404,08€
-"ABN"			28/06/2024	"Aevitae"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"		123,95€	0,00€	R	2280,13€
-"ABN"			30/06/2024	"HAPAmstelveld"	"Income:Available next month"	"Income"	"Available next month"	"Betaling Werk"	0,00€	384,00€	R	2664,13€
-"ABN"			01/07/2024	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	3,00€	0,00€	R	2661,13€
-"ABN"			01/07/2024	"NTvG"	"Monthly Bills:14 NTvG"	"Monthly Bills"	"14 NTvG"	"Incasso NTVG"	6,99€	0,00€	R	2654,14€
-"ABN"			02/07/2024	"VU"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Lunch"	4,20€	0,00€	R	2649,94€
-"ABN"			02/07/2024	"Sloterpark Zwembad"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Zwemmen m/ henry"	6,00€	0,00€	R	2643,94€
-"ABN"			04/07/2024	"VU"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Ontbijt"	4,88€	0,00€	R	2639,06€
-"ABN"			06/07/2024	"AH"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Cadeau club"	2,49€	0,00€	R	2636,57€
-"ABN"			09/07/2024	"Hmng"	"Income:Available this month"	"Income"	"Available this month"	"Betaling CA + Zakgeld"	0,00€	2200,00€	R	4836,57€
-"ABN"			09/07/2024	"Bizkaibus"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Vervoer vliegveld intermodal"	3,00€	0,00€	R	4833,57€
-"ABN"			09/07/2024	"Vicente"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Cadeau Dames afscheid"	4,50€	0,00€	R	4829,07€
-"ABN"			09/07/2024	"SEHSO"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Inschrijving SEHSO"	35,00€	0,00€	R	4794,07€
-"ABN"			12/07/2024	"Sarah B."	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Cadeau Thomas"	6,90€	0,00€	R	4787,17€
-"ABN"			14/07/2024	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Bier"	7,20€	0,00€	R	4779,97€
-"ABN"			17/07/2024	"NS"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Ticket (Later geannuleerd)"	37,70€	0,00€	R	4742,27€
-"ABN"			18/07/2024	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Bier"	5,70€	0,00€	R	4736,57€
-"ABN"			19/07/2024	"Other"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Fiets repair kit (terugbetaald later)"	6,00€	0,00€	R	4730,57€
-"ABN"			19/07/2024	"Opticien"	"Rainy Day Funds:10 Gezondheid"	"Rainy Day Funds"	"10 Gezondheid"	"Lenzen"	52,00€	0,00€	R	4678,57€
-"ABN"			22/07/2024	"Belasting"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Zorggeld"	0,00€	124,00€	R	4802,57€
-"ABN"			22/07/2024	"OV"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Anulering reis"	0,00€	37,70€	R	4840,27€
-"ABN"			24/07/2024	"Overheid"	"Income:Available next month"	"Income"	"Available next month"	"Studentenfinanciering"	0,00€	466,69€	R	5306,96€
-"ABN"			26/07/2024	"Other"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Coockies en aansichtskaarten"	5,55€	0,00€	R	5301,41€
-"ABN"			26/07/2024	"Aevitae"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"		123,95€	0,00€	R	5177,46€
-"ABN"			27/07/2024	"Apple"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Abonnement MAX"	5,08€	0,00€	R	5172,38€
-"ABN"			27/07/2024	"Torreciudad"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Zegels"	17,00€	0,00€	R	5155,38€
-"ABN"			28/07/2024	"Torreciudad"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Aansichtskaarten & zegels"	19,50€	0,00€	R	5135,88€
-"ABN"			30/07/2024	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Kaarten"	1,75€	0,00€	R	5134,13€
-"ABN"			30/07/2024	"NTvG"	"Monthly Bills:14 NTvG"	"Monthly Bills"	"14 NTvG"	"Incassering NTVG"	6,99€	0,00€	R	5127,14€
-"ABN"			30/07/2024	"Other"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Cadeau verjaardag Moeder"	19,00€	0,00€	R	5108,14€
-"ABN"			31/07/2024	"Torreciudad"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Zegel"	0,50€	0,00€	R	5107,64€
-"ABN"			01/08/2024	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Aansichtskaarten"	3,50€	0,00€	R	5104,14€
-"ABN"			01/08/2024	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Txistorra Alvaro"	3,83€	0,00€	R	5100,31€
-"ABN"			01/08/2024	"Horan"	"Rainy Day Funds:14 Kapper"	"Rainy Day Funds"	"14 Kapper"	"Kapper"	15,00€	0,00€	R	5085,31€
-"ABN"			01/08/2024	"RWTH"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Inschrijfgeld Aken"	304,47€	0,00€	R	4780,84€
-"ABN"			02/08/2024	"ABN"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"2,95 transfer geld"	2,95€	0,00€	R	4777,89€
-"ABN"			02/08/2024	"Other"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Oplader auto adaptor 12V"	10,75€	0,00€	R	4767,14€
-"ABN"			02/08/2024	"Other"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Benzine"	55,41€	0,00€	R	4711,73€
-"ABN"			02/08/2024	"Transfer : Wallet"				"Contant nodig voor reis"	100,00€	0,00€	R	4611,73€
-"ABN"			03/08/2024	"Escorial"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Cadeau Zus"	22,95€	0,00€	R	4588,78€
-"ABN"			04/08/2024	"Lh"	"Buisnesses:11 Club"	"Buisnesses"	"11 Club"	"(Split 1/2) Terugebetaling uitgaven club / Overgemaakt"	0,00€	394,57€	R	5099,73€
-"ABN"			04/08/2024	"Lh"	"Buisnesses:15 Voorschieten"	"Buisnesses"	"15 Voorschieten"	"(Split 2/2) Terugbetaling uitgaven Lh / Overgemaakt"	0,00€	116,38€	R	5099,73€
-"ABN"			06/08/2024	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	3,00€	0,00€	R	5096,73€
-"ABN"			06/08/2024	"Mendaur"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Semester betaling"	2000,00€	0,00€	R	3096,73€
-"ABN"			07/08/2024	"Lourdes"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Kaartjes"	2,50€	0,00€	R	3094,23€
-"ABN"			07/08/2024	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	3,00€	0,00€	R	3091,23€
-"ABN"			09/08/2024	"Pablo Montsivais"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Vervoer Lourdes"	3,00€	0,00€	R	3088,23€
-"ABN"			16/08/2024	"Snelwegen Spanje"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Laatste delen snelnwegen spanje betaling"	7,60€	0,00€	C	3080,63€
-"ABN"			16/08/2024	"BachelorAcademie"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Lidmaatschap Bacheloracademie"	30,00€	0,00€	R	3050,63€
-"ABN"			20/08/2024	"Belasting"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Zorgtoeslag"	0,00€	123,00€	U	3173,63€
-"ABN"			22/08/2024	"Overheid"	"Income:Available next month"	"Income"	"Available next month"	"Studiefinanciering"	0,00€	439,20€	U	3612,83€
+"ABN"			28/04/2025	"SquashCity"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Sportabonnement"	39,90€	0,00€	R	2892,84€
+"ABN"			28/04/2025	"Aevitae"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"		136,40€	0,00€	R	2756,44€
+"ABN"			28/04/2025	"Lh"	"Savings Goals:Reis"	"Savings Goals"	"Reis"	"Reis Assisi"	500,00€	0,00€	R	2256,44€
+"ABN"			29/04/2025	"OVPAY"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Vervoer tram"	1,33€	0,00€	R	2255,11€
+"ABN"			29/04/2025	"GentADS"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Bier met vriend"	32,30€	0,00€	R	2222,81€
+"ABN"			30/04/2025	"HAPAmstelveld"	"Income:Available next month"	"Income"	"Available next month"	"Huisartsenpraktijk"	0,00€	224,00€	R	2446,81€
+"ABN"			30/04/2025	"Pascal"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Lezing Pascal"	25,00€	0,00€	R	2421,81€
+"ABN"			01/05/2025	"Hmng"	"Income:Available this month"	"Income"	"Available this month"	"Zakgeld + Pension"	0,00€	425,00€	R	2846,81€
+"ABN"			01/05/2025	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	4,00€	0,00€	R	2842,81€
+"ABN"			01/05/2025	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Pension"	680,00€	0,00€	R	2162,81€
+"ABN"			02/05/2025	"StichtingVU"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"ErasmusBeurs"	0,00€	616,00€	R	2778,81€
+"ABN"			02/05/2025	"Jordi"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Vervoer scooters rome"	14,71€	0,00€	R	2764,10€
+"ABN"			02/05/2025	"Jordi"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Paasmaaltijd, meebetaald priester"	115,00€	0,00€	R	2649,10€
+"ABN"			03/05/2025	"Erk"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Pension Maart"	490,00€	0,00€	R	2159,10€
+"ABN"			04/05/2025	"Lowik"	"Buisnesses:14 Voorschieten"	"Buisnesses"	"14 Voorschieten"	"Terugbetaling treingeld Lowik"	0,00€	10,00€	R	2169,10€
+"ABN"			04/05/2025	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Iets"	5,58€	0,00€	R	2163,52€
+"ABN"			09/05/2025	"Hema"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Fotos Paus"	2,88€	0,00€	R	2160,64€
+"ABN"			10/05/2025	"Myrthe de Jong"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Deo"	5,69€	0,00€	R	2154,95€
+"ABN"			12/05/2025	"Anna Doczuminska"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Bungee"	12,00€	0,00€	R	2142,95€
+"ABN"			12/05/2025	"Bikepoint Sarphati"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Ketting spannen"	20,00€	0,00€	R	2122,95€
+"ABN"			17/05/2025	"Kanoverhuur"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Hapje"	4,50€	0,00€	R	2118,45€
+"ABN"			17/05/2025	"Kanoverhuur"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Kanoen"	6,00€	0,00€	R	2112,45€
+"ABN"			17/05/2025	"NS"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Opladen kaartje"	20,00€	0,00€	R	2092,45€
+"ABN"			18/05/2025	"Aan 't plein"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Drankje met Lowik"	18,00€	0,00€	R	2074,45€
+"ABN"			19/05/2025	"Xenos"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Spray"	1,99€	0,00€	R	2072,46€
+"ABN"			20/05/2025	"Belasting"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Zorgtoeslag"	0,00€	131,00€	R	2203,46€
+"ABN"			22/05/2025	"Landmerk"	"Savings Goals:Reis"	"Savings Goals"	"Reis"	"Reis Vienna"	0,00€	1976,00€	R	4179,46€
+"ABN"			22/05/2025	"Overheid"	"Income:Available next month"	"Income"	"Available next month"	"Studiefinanciering"	0,00€	314,00€	R	4493,46€
+"ABN"			24/05/2025	"NS"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Treinreis"	9,00€	0,00€	R	4484,46€
+"ABN"			25/05/2025	"KLM"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Vliegen Dublin"	183,33€	0,00€	R	4301,13€
+"ABN"			26/05/2025	"SquashCity"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Squashcity Juni"	39,90€	0,00€	R	4261,23€
+"ABN"			26/05/2025	"KLM"	"Savings Goals:Reis"	"Savings Goals"	"Reis"	"Vervoer Vienna"	384,95€	0,00€	R	3876,28€
+"ABN"			28/05/2025	"Aevitae"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Incasso zorgverzekering"	136,40€	0,00€	R	3739,88€
+"ABN"			29/05/2025	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Nagellakremover"	1,15€	0,00€	R	3738,73€
+"ABN"			30/05/2025	"HAPAmstelveld"	"Income:Available next month"	"Income"	"Available next month"	"Werk huisartsenpraktijk"	0,00€	250,08€	R	3988,81€
+"ABN"			30/05/2025	"Alfonso"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Sigaar"	12,50€	0,00€	R	3976,31€
+"ABN"			30/05/2025	"Pedro"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Stukje 3d printer"	12,95€	0,00€	R	3963,36€
+"ABN"			30/05/2025	"BeBoulder"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Boulderen vrienden"	16,25€	0,00€	R	3947,11€
+"ABN"			31/05/2025	"Pedro"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Terugebtaling Pedro"	0,00€	12,95€	R	3960,06€
+"ABN"			01/06/2025	"Hmng"	"Income:Available this month"	"Income"	"Available this month"	"Zakgeld + Pension"	0,00€	425,00€	R	4385,06€
+"ABN"			01/06/2025	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	4,00€	0,00€	R	4381,06€
+"ABN"			01/06/2025	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Pension"	680,00€	0,00€	R	3701,06€
+"ABN"			02/06/2025	"Bol.com"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Onderdeel printer"	25,08€	0,00€	R	3675,98€
+"ABN"			03/06/2025	"NTvG"	"Monthly Bills:14 NTvG"	"Monthly Bills"	"14 NTvG"	"Tijdschrijft"	7,20€	0,00€	R	3668,78€
+"ABN"			04/06/2025	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Eten"	6,28€	0,00€	R	3662,50€
+"ABN"			05/06/2025	"GGD Amsterdam"	"Buisnesses:14 Niet-LH-Voorschieten"	"Buisnesses"	"14 Niet-LH-Voorschieten"	"Adolfo VOG"	41,35€	0,00€	R	3621,15€
+"ABN"			07/06/2025	"Le4Stagione"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Eten Matteo"	44,50€	0,00€	R	3576,65€
+"ABN"			08/06/2025	"OVPAY"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Tram"	1,42€	0,00€	R	3575,23€
+"ABN"			08/06/2025	"OVPAY"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Vervoer AMS en Utrecht"	18,80€	0,00€	R	3556,43€
+"ABN"			09/06/2025	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Lunch"	5,69€	0,00€	R	3550,74€
+"ABN"			11/06/2025	"Albert heijn"	"Buisnesses:14 Niet-LH-Voorschieten"	"Buisnesses"	"14 Niet-LH-Voorschieten"	"Bierco"	30,11€	0,00€	R	3520,63€
+"ABN"			12/06/2025	"Pascal"	"Savings Goals:Reis"	"Savings Goals"	"Reis"	"Pascal cursus"	2195,00€	0,00€	R	1325,63€
+"ABN"			13/06/2025	"Belasting"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Terugbetaling Belastingdienst"	62,00€	0,00€	R	1263,63€
+"ABN"			15/06/2025	"Other"	"Buisnesses:14 Voorschieten"	"Buisnesses"	"14 Voorschieten"	"Voorschieten Parking"	6,00€	0,00€	R	1257,63€
+"ABN"			15/06/2025	"Jordi"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Jordi Uitbetalen"	61,96€	0,00€	R	1195,67€
+"ABN"			16/06/2025	"Adolfo"	"Buisnesses:14 Niet-LH-Voorschieten"	"Buisnesses"	"14 Niet-LH-Voorschieten"	"VOG adolfo terugbetaling + diensten"	0,00€	50,03€	R	1245,70€
+"ABN"			16/06/2025	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Toetje"	1,77€	0,00€	R	1243,93€
+"ABN"			17/06/2025	"Alfonso"	"Buisnesses:14 Voorschieten"	"Buisnesses"	"14 Voorschieten"	"Terugbetaling parkeren"	0,00€	6,00€	R	1249,93€
+"ABN"			17/06/2025	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Waterfles"	3,55€	0,00€	R	1246,38€
+"ABN"			17/06/2025	"Blauwe Theehuis"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Wijn"	6,95€	0,00€	R	1239,43€
+"ABN"			19/06/2025	"AH"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Lunch"	7,79€	0,00€	R	1231,64€
+"ABN"			19/06/2025	"Zalando"	"Rainy Day Funds:13 Kleding/Fiets"	"Rainy Day Funds"	"13 Kleding/Fiets"	"Pak"	88,90€	0,00€	R	1142,74€
+"ABN"			20/06/2025	"Belasting"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Zorgtoeslag"	0,00€	131,00€	R	1273,74€
+"ABN"			20/06/2025	"Matteo"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Terugebetaling Matteo"	0,00€	16,50€	R	1290,24€
+"ABN"			21/06/2025	"Hema"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Schrift"	6,99€	0,00€	R	1283,25€
+"ABN"			22/06/2025	"Other"	"Savings Goals:Reis"	"Savings Goals"	"Reis"	"Vervoer Oostenrijk"	14,90€	0,00€	R	1268,35€
+"ABN"			22/06/2025	"Other"	"Savings Goals:Reis"	"Savings Goals"	"Reis"	"Bier Hendrik"	16,00€	0,00€	R	1252,35€
+"ABN"			22/06/2025	"Ankerbrot"	"Savings Goals:Reis"	"Savings Goals"	"Reis"	"Eten Hendrik"	17,75€	0,00€	R	1234,60€
+"ABN"			23/06/2025	"Alejandor Campos"	"Buisnesses:14 Niet-LH-Voorschieten"	"Buisnesses"	"14 Niet-LH-Voorschieten"	"Terugbetaling Bier"	0,00€	30,11€	R	1264,71€
+"ABN"			23/06/2025	"StatsOper"	"Savings Goals:Reis"	"Savings Goals"	"Reis"	"Water opera"	9,60€	0,00€	R	1255,11€
+"ABN"			24/06/2025	"Overheid"	"Income:Available next month"	"Income"	"Available next month"	"Studiefinanciering"	0,00€	314,00€	R	1569,11€
+"ABN"			24/06/2025	"Other"	"Savings Goals:Reis"	"Savings Goals"	"Reis"	"Ijsje"	2,90€	0,00€	R	1566,21€
+"ABN"			25/06/2025	"Voi"	"Savings Goals:Reis"	"Savings Goals"	"Reis"	"Vervoer Voi"	3,24€	0,00€	R	1562,97€
+"ABN"			25/06/2025	"Other"	"Savings Goals:Reis"	"Savings Goals"	"Reis"	"Cognac Baron"	8,00€	0,00€	R	1554,97€
+"ABN"			25/06/2025	"Other"	"Savings Goals:Reis"	"Savings Goals"	"Reis"	"Eten Frank Femk Hendrik"	40,00€	0,00€	R	1514,97€
+"ABN"			25/06/2025	"Lh"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Reis Zeeland"	148,50€	0,00€	R	1366,47€
+"ABN"			26/06/2025	"SquashCity"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Incasso Squashcity"	39,90€	0,00€	R	1326,57€
+"ABN"			27/06/2025	"Lime"	"Savings Goals:Reis"	"Savings Goals"	"Reis"	"Reis Lime"	14,30€	0,00€	R	1312,27€
+"ABN"			27/06/2025	"Other"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"(Split 1/2) Joana + Alex / Shop"	4,07€	0,00€	R	1258,02€
+"ABN"			27/06/2025	"Other"	"Savings Goals:Reis"	"Savings Goals"	"Reis"	"(Split 2/2) Cadeaus uit wenen / Shop"	50,18€	0,00€	R	1258,02€
+"ABN"			27/06/2025	"Aevitae"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Incasso zorgverzekering"	136,40€	0,00€	R	1121,62€
+"ABN"			28/06/2025	"NS"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Opladen OV"	20,00€	0,00€	R	1101,62€
+"ABN"			30/06/2025	"AH"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Eten AH"	3,50€	0,00€	R	1098,12€
+"ABN"			30/06/2025	"NTvG"	"Monthly Bills:14 NTvG"	"Monthly Bills"	"14 NTvG"	"Incasso"	7,20€	0,00€	R	1090,92€
+"ABN"			01/07/2025	"Hmng"	"Income:Available this month"	"Income"	"Available this month"	"Zakgeld + Pension"	0,00€	425,00€	R	1515,92€
+"ABN"			01/07/2025	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	4,00€	0,00€	R	1511,92€
+"ABN"			06/07/2025	"Jordi"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Cooltra"	10,05€	0,00€	R	1501,87€
+"ABN"			06/07/2025	"Lh"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"20 Dagen in Lh"	430,00€	0,00€	R	1071,87€
+"ABN"			07/07/2025	"AH"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Lunch"	15,25€	0,00€	R	1056,62€
+"ABN"			07/07/2025	"Schmidt Optiek"	"Rainy Day Funds:10 Gezondheid"	"Rainy Day Funds"	"10 Gezondheid"	"Lenzen"	72,00€	0,00€	R	984,62€
+"ABN"			08/07/2025	"Other"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Bloemen Nuni"	7,50€	0,00€	R	977,12€
+"ABN"			09/07/2025	"Pieter Bas"	"Rainy Day Funds:14 Kapper"	"Rainy Day Funds"	"14 Kapper"	"Kapper"	26,50€	0,00€	R	950,62€
+"ABN"			10/07/2025	"Other"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"toilet"	1,00€	0,00€	R	949,62€
+"ABN"			11/07/2025	"Other"	"Buisnesses:14 Voorschieten"	"Buisnesses"	"14 Voorschieten"	"Fuel"	70,62€	0,00€	R	879,00€
+"ABN"			13/07/2025	"Zalando"	"Rainy Day Funds:13 Kleding/Fiets"	"Rainy Day Funds"	"13 Kleding/Fiets"	"Terugbetaling kleding"	0,00€	88,90€	R	967,90€
+"ABN"			13/07/2025	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Eten Peter"	27,00€	0,00€	R	940,90€
+"ABN"			13/07/2025	"Other"	"Buisnesses:14 Voorschieten"	"Buisnesses"	"14 Voorschieten"	"Eurospin"	34,36€	0,00€	R	906,54€
+"ABN"			15/07/2025	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Terugbetaling Peter"	0,00€	10,00€	R	916,54€
+"ABN"			15/07/2025	"Other"	"Rainy Day Funds:10 Gezondheid"	"Rainy Day Funds"	"10 Gezondheid"	"Esoconazol"	15,00€	0,00€	R	901,54€
+"ABN"			18/07/2025	"Other"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Kaartjes"	5,00€	0,00€	R	896,54€
+"ABN"			19/07/2025	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Eten"	9,80€	0,00€	R	886,74€
+"ABN"			20/07/2025	"Other"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Toilet"	1,09€	0,00€	R	885,65€
+"ABN"			20/07/2025	"Other"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Reis Milan"	4,40€	0,00€	R	881,25€
+"ABN"			20/07/2025	"Albert heijn"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Eten"	4,99€	0,00€	R	876,26€
+"ABN"			21/07/2025	"Belasting"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Zorgtoeslag"	0,00€	131,00€	R	1007,26€
+"ABN"			21/07/2025	"Albert heijn"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Eten+Zwerver"	10,92€	0,00€	R	996,34€
+"ABN"			22/07/2025	"Schreierstoren"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Eten Lowik"	25,50€	0,00€	R	970,84€
+"ABN"			22/07/2025	"Relay"	"Rainy Day Funds:15 Birthdays"	"Rainy Day Funds"	"15 Birthdays"	"Cadeau Joana"	37,99€	0,00€	R	932,85€
+"ABN"			23/07/2025	"OVPAY"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Tram"	2,38€	0,00€	R	930,47€
+"ABN"			24/07/2025	"Overheid"	"Income:Available next month"	"Income"	"Available next month"	"Studiefinanciering"	0,00€	314,00€	R	1244,47€
+"ABN"			25/07/2025	"VonTrapp"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Zingen Pim"	224,00€	0,00€	R	1020,47€
+"ABN"			25/07/2025	"VonTrapp"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Zingen Pim"	237,16€	0,00€	R	783,31€
+"ABN"			26/07/2025	"Maria"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Terugbetaling Maria Pim"	0,00€	101,64€	R	884,95€
+"ABN"			26/07/2025	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Shampoos en scheermessen"	11,18€	0,00€	R	873,77€
+"ABN"			28/07/2025	"Paul Graas"	"Buisnesses:14 Voorschieten"	"Buisnesses"	"14 Voorschieten"	"Terugbetaling Assis uitgaven"	0,00€	126,38€	R	1000,15€
+"ABN"			28/07/2025	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Spullen"	2,99€	0,00€	R	997,16€
+"ABN"			28/07/2025	"NTvG"	"Monthly Bills:14 NTvG"	"Monthly Bills"	"14 NTvG"	"NTVG"	7,20€	0,00€	R	989,96€
+"ABN"			28/07/2025	"Aevitae"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Incasso zorgverzekering"	136,40€	0,00€	R	853,56€
+"ABN"			29/07/2025	"OVPAY"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Tram"	6,61€	0,00€	R	846,95€
+"ABN"			29/07/2025	"Cigaragua"	"Buisnesses:14 Voorschieten"	"Buisnesses"	"14 Voorschieten"	"Voorschieten sigaar"	15,00€	0,00€	R	831,95€
+"ABN"			30/07/2025	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Paracetamol"	0,69€	0,00€	R	831,26€
+"ABN"			30/07/2025	"Albert heijn"	"Buisnesses:14 Voorschieten"	"Buisnesses"	"14 Voorschieten"	"Bierco"	17,39€	0,00€	R	813,87€
+"ABN"			30/07/2025	"Gall&Gall"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Fles Tim"	27,48€	0,00€	R	786,39€
+"ABN"			31/07/2025	"OVPAY"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Vervoer Tram"	5,41€	0,00€	R	780,98€
+"ABN"			31/07/2025	"Peaches"	"Everyday Expenses:14 Restaurants"	"Everyday Expenses"	"14 Restaurants"	"Lunch"	16,25€	0,00€	R	764,73€
+"ABN"			31/07/2025	"Transfer : revolut"				"Revolut upping"	100,00€	0,00€	R	664,73€
+"ABN"			01/08/2025	"HAPAmstelveld"	"Income:Available this month"	"Income"	"Available this month"	"Uitbetaling werk"	0,00€	872,00€	R	1536,73€
+"ABN"			01/08/2025	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	4,00€	0,00€	R	1532,73€
+"ABN"			03/08/2025	"Jose"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Terugbetaling Jose"	0,00€	112,00€	R	1644,73€
+"ABN"			03/08/2025	"FSR"	"Rainy Day Funds:13 Kleding/Fiets"	"Rainy Day Funds"	"13 Kleding/Fiets"	"Goedmaking FSR"	0,00€	70,00€	R	1714,73€
+"ABN"			03/08/2025	"Alfonso"	"Buisnesses:14 Voorschieten"	"Buisnesses"	"14 Voorschieten"	"Terugbetaling sigaar"	0,00€	15,00€	R	1729,73€
+"ABN"			09/08/2025	"Wexford"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Stuff Wexford"	15,10€	0,00€	C	1714,63€
+"ABN"			16/08/2025	"Pedro"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Terugbetaling Pedro"	0,00€	112,00€	C	1826,63€
+"ABN"			20/08/2025	"Belasting"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Zorgtoeslag"	0,00€	131,00€	C	1957,63€
+"ABN"			20/08/2025	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Bier Vrienden"	14,00€	0,00€	C	1943,63€
+"ABN"			22/08/2025	"Overheid"	"Income:Available next month"	"Income"	"Available next month"	"Studiefinanciering"	0,00€	314,00€	C	2257,63€
+"ABN"			22/08/2025	"Luison"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Aran Islands boat"	34,00€	0,00€	C	2223,63€
+"ABN"			23/08/2025	"Lismullin"	"Monthly Bills:9 Rent"	"Monthly Bills"	"9 Rent"	"Lismullin"	1250,00€	0,00€	C	973,63€
+"ABN"			25/08/2025	"Alfonso"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Terugbetaling Fons"	0,00€	12,30€	C	985,93€
+"ABN"			25/08/2025	"Other"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Vervoer Dublin"	9,00€	0,00€	C	976,93€
+"ABN"			25/08/2025	"Other"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Dingen Dublin"	17,75€	0,00€	C	959,18€
+"ABN"			26/08/2025	"SquashCity"	"Monthly Bills:14 Sport"	"Monthly Bills"	"14 Sport"	"Incasso Squashcity"	39,90€	0,00€	C	919,28€
+"ABN"			28/08/2025	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Spullejtes"	3,77€	0,00€	C	915,51€
+"ABN"			28/08/2025	"Aevitae"	"Monthly Bills:10 Zorgverzekering"	"Monthly Bills"	"10 Zorgverzekering"	"Incasso zorgverzekering"	136,40€	0,00€	C	779,11€
+"ABN"			01/09/2025	"Hmng"	"Income:Available this month"	"Income"	"Available this month"	"Zakgeld + Pension"	0,00€	425,00€	C	1204,11€
+"ABN"			01/09/2025	"HAPAmstelveld"	"Income:Available this month"	"Income"	"Available this month"	"Uitbetaling werk"	0,00€	144,00€	C	1348,11€
+"ABN"			01/09/2025	"Paul Graas"	"Monthly Bills:14 Spoitfy"	"Monthly Bills"	"14 Spoitfy"	"Spotify"	4,00€	0,00€	C	1344,11€
+"ABN"			01/09/2025	"NTvG"	"Monthly Bills:14 NTvG"	"Monthly Bills"	"14 NTvG"	"Incasso NTVG"	7,20€	0,00€	C	1336,91€
+"ABN"			03/09/2025	"Etos"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Shampoooo voor dagen"	67,39€	0,00€	C	1269,52€
+"ABN"			05/09/2025	"Albert heijn"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Eten"	5,49€	0,00€	C	1264,03€
 "Safe"			10/02/2023	"Eigen zak"	"Income:Available this month"	"Income"	"Available this month"	"Resten Papier"	0,00€	445,00€	R	445,00€
 "Safe"			10/02/2023	"Eigen zak"	"Income:Available this month"	"Income"	"Available this month"		0,00€	15,50€	R	460,50€
 "Safe"			10/02/2023	"Starting Balance"	"Income:Available this month"	"Income"	"Available this month"		0,00€	0,00€	R	460,50€
@@ -592,11 +156,13 @@
 "Safe"			28/05/2023	"Transfer : ABN"				"Daan wilde wisselgeld"	5,00€	0,00€	R	70,50€
 "Safe"			28/08/2023	"Transfer : Wallet"				"Wisselgeld "	7,00€	0,00€	R	63,50€
 "Safe"			28/08/2023	"UItgavens niet bijgehouden"	"Income:Available next month"	"Income"	"Available next month"		41,77€	0,00€	R	21,73€
-"Safe"			13/10/2023	"Other"	"Buisnesses:15 Biercomissie"	"Buisnesses"	"15 Biercomissie"	"Gevonden in de Biercomissie"	0,00€	5,40€	R	27,13€
-"Safe"			16/04/2024	"Ben Diego"	"Buisnesses:15 Niet-LH-Voorschieten"	"Buisnesses"	"15 Niet-LH-Voorschieten"	"Boek terugbetalen"	0,00€	40,00€	R	67,13€
+"Safe"			13/10/2023	"Other"	"Buisnesses:14 Biercomissie"	"Hidden Categories"	"Buisnesses ` 14 Biercomissie ` 83A3FCA2-E652-F6F7-6933-93D853E9E25B"	"Gevonden in de Biercomissie"	0,00€	5,40€	R	27,13€
+"Safe"			16/04/2024	"Ben Diego"	"Buisnesses:14 Niet-LH-Voorschieten"	"Buisnesses"	"14 Niet-LH-Voorschieten"	"Boek terugbetalen"	0,00€	40,00€	R	67,13€
 "Safe"			26/04/2024	"Transfer : Wallet"				"Alles naar safe en gelijk zetten"	0,00€	8,80€	R	75,93€
 "Safe"			26/04/2024	"Transfer : Wallet"				"5 euro overgezet"	5,00€	0,00€	U	70,93€
 "Safe"			26/04/2024	"UItgavens niet bijgehouden"	"Income:Available next month"	"Income"	"Available next month"		24,79€	0,00€	R	46,14€
+"Safe"			07/09/2024	"Transfer : Wallet"					0,00€	70,00€	U	116,14€
+"Safe"			23/11/2024	"Transfer : Wallet"					70,00€	0,00€	U	46,14€
 "Wallet"			28/08/2023	"Transfer : Safe"				"Wisselgeld "	0,00€	7,00€	R	7,00€
 "Wallet"			28/08/2023	"Starting Balance"	"Income:Available this month"	"Income"	"Available this month"		0,00€	0,00€	R	7,00€
 "Wallet"			24/09/2023	"Other"	"Income:Available this month"	"Income"	"Available this month"	"Gevonden op straat"	0,00€	1,80€	R	8,80€
@@ -606,6 +172,45 @@
 "Wallet"			02/05/2024	"Kapel"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"2 Kaarsen aangestoken"	2,00€	0,00€	R	1,00€
 "Wallet"			07/05/2024	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Geld gevonden, voor bedevaarten"	0,00€	2,00€	R	3,00€
 "Wallet"			21/07/2024	"Other"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Om het gelijk te maken"	3,00€	0,00€	R	0,00€
-"Wallet"			02/08/2024	"Transfer : ABN"				"Contant nodig voor reis"	0,00€	100,00€	U	100,00€
-"Wallet"			06/08/2024	"Snelwegen Spanje"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Tolwegen"	16,85€	0,00€	U	83,15€
-"Wallet"			06/08/2024	"Other"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Benzine"	50,00€	0,00€	U	33,15€
+"Wallet"			02/08/2024	"Transfer : ABN"				"Contant nodig voor reis"	0,00€	100,00€	R	100,00€
+"Wallet"			06/08/2024	"Snelwegen Spanje"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Tolwegen"	16,85€	0,00€	R	83,15€
+"Wallet"			06/08/2024	"Other"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Benzine"	50,00€	0,00€	R	33,15€
+"Wallet"			05/09/2024	"Ben Diego"	"Income:Available this month"	"Income"	"Available this month"	"IEse"	0,00€	70,00€	R	103,15€
+"Wallet"			05/09/2024	"Other"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Hulp SABA"	10,00€	0,00€	R	93,15€
+"Wallet"			07/09/2024	"Other"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Mis Muntje"	2,00€	0,00€	R	91,15€
+"Wallet"			07/09/2024	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Club Klaphmule"	20,00€	0,00€	R	71,15€
+"Wallet"			07/09/2024	"Transfer : Safe"					70,00€	0,00€	R	1,15€
+"Wallet"			19/09/2024	"Transfer : ABN"				"Cash"	0,00€	50,00€	R	51,15€
+"Wallet"			22/09/2024	"Other"	"Rainy Day Funds:15 Mis"	"Rainy Day Funds"	"15 Mis"	"Geld Mis"	1,15€	0,00€	R	50,00€
+"Wallet"			22/09/2024	"Other"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Geld Mis"	2,00€	0,00€	R	48,00€
+"Wallet"			22/09/2024	"BVL"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Donatie Stichting voor het leven DE"	5,00€	0,00€	R	43,00€
+"Wallet"			22/09/2024	"Other"	"Rainy Day Funds:13 Kleding/Fiets"	"Rainy Day Funds"	"13 Kleding/Fiets"	"Reparatie kleding"	13,00€	0,00€	R	30,00€
+"Wallet"			23/09/2024	"Mis"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Mis Donaties"	0,55€	0,00€	R	29,45€
+"Wallet"			23/09/2024	"RWTH"	"Rainy Day Funds:15 NietAlledaagse spullen"	"Rainy Day Funds"	"15 NietAlledaagse spullen"	"Lunchkaart"	5,00€	0,00€	R	24,45€
+"Wallet"			23/09/2024	"Jas"	"Rainy Day Funds:13 Kleding/Fiets"	"Rainy Day Funds"	"13 Kleding/Fiets"	"Regenjas"	10,00€	0,00€	R	14,45€
+"Wallet"			26/09/2024	"Netto"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Ontbijt"	5,39€	0,00€	R	9,06€
+"Wallet"			27/09/2024	"Kiosk"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Bier"	5,00€	0,00€	R	4,06€
+"Wallet"			26/10/2024	"Transfer : ABN"				"Cash voor duitsland"	0,00€	50,00€	R	54,06€
+"Wallet"			26/10/2024	"Other"	"Rainy Day Funds:13 EmergencyFund"	"Rainy Day Funds"	"13 EmergencyFund"	"Geld zwerver"	20,00€	0,00€	R	34,06€
+"Wallet"			26/10/2024	"Mis"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Geld voor missen"	34,06€	0,00€	R	0,00€
+"Wallet"			23/11/2024	"Transfer : Safe"					0,00€	70,00€	R	70,00€
+"Wallet"			23/11/2024	"Mis"	"Rainy Day Funds:15 BijzondereBijeenkomsten"	"Rainy Day Funds"	"15 BijzondereBijeenkomsten"	"Geld mis"	10,00€	0,00€	R	60,00€
+"Wallet"			25/11/2024	"Other"	"Everyday Expenses:14 Groceries"	"Everyday Expenses"	"14 Groceries"	"Schrift"	3,50€	0,00€	R	56,50€
+"Wallet"			25/11/2024	"Other"	"Rainy Day Funds:14 Kapper"	"Rainy Day Funds"	"14 Kapper"	"Kapper"	15,00€	0,00€	R	41,50€
+"Wallet"			25/11/2024	"Other"	"Everyday Expenses:14 Bar/Amigos"	"Everyday Expenses"	"14 Bar/Amigos"	"Gluweihn cadeuaus en andere zaken"	40,95€	0,00€	R	0,55€
+"Wallet"			19/05/2025	"Other"	"Income:Available this month"	"Income"	"Available this month"	"Recht trekken"	0,00€	1,30€	R	1,85€
+"Erasmus"			23/11/2024	"Transfer : ABN"				"Erasmus Sep Okt Nov"	879,18€	0,00€	R	-879,18€
+"Erasmus"			25/11/2024	"Transfer : ABN"				"Back money from erasmus"	0,00€	1436,00€	R	556,82€
+"Erasmus"			25/11/2024	"Starting Balance"					0,00€	0,00€	R	556,82€
+"Erasmus"			23/12/2024	"Transfer : ABN"				"Temporary back"	0,00€	263,76€	R	820,58€
+"Erasmus"			23/12/2024	"Transfer : ABN"				"Temporary"	556,82€	0,00€	R	263,76€
+"Erasmus"			02/01/2025	"Transfer : ABN"				"Switcheroo back"	0,00€	263,76€	R	527,52€
+"Erasmus"			02/01/2025	"Transfer : ABN"				"Switcheroo"	263,76€	0,00€	R	263,76€
+"Erasmus"			10/03/2025	"Transfer : ABN"				"Bring last money"	263,76€	0,00€	R	0,00€
+"Erasmus"			12/03/2025	"StichtingVU"				"Last 30%"	0,00€	615,43€	R	615,43€
+"Erasmus"			28/04/2025	"none"				"Anihilation"	1230,86€	0,00€	R	-615,43€
+"Erasmus"			01/05/2025	"Erasmus"					0,00€	615,43€	R	0,00€
+"revolut"			31/07/2025	"Transfer : ABN"				"Revolut upping"	0,00€	100,00€	U	100,00€
+"revolut"			31/07/2025	"Other"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Travel Dublin"	10,00€	0,00€	U	90,00€
+"revolut"			02/08/2025	"Al Byrne"	"Everyday Expenses:12 Vervoer"	"Everyday Expenses"	"12 Vervoer"	"Benzine"	20,00€	0,00€	U	70,00€
+"revolut"			03/08/2025	"Starting Balance"	"Pre-YNAB Debt:revolut"	"Pre-YNAB Debt"	"revolut"		0,00€	0,00€	C	70,00€

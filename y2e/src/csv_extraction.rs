@@ -37,35 +37,92 @@ writes on row_index
 */
 
 
-use std::{io, u32};
-use csv::DeserializeRecordsIter;
+use std::{collections::HashMap, io, u32};
 
 
-//Writes every row
+
+// Writes every row
 // Sheet is the mutable sheet
 // Row is the raw data which needs to be processed
 // Index is the height of the row NOT column, columns are specifed in each individual write function
 pub fn write_to_sheet<'a>(sheet: &mut xlsxwriter::Worksheet, 
                         row: &Vec<String>,
-                        index: u32, cram_14: &mut Vec<f32>, cram_15: &mut Vec<f32>) -> Result<(),String>{
+                        index: u32, 
+                        cram_values: &mut HashMap<&str, Vec<f32>>) -> Result<(),String>{
 
     //Preliminary check (only ABN allowed)
     check_account(row)?;
-    check_date(row, "01/07/2024")?;     // Date to compare
+    check_date(row, "00/05/2025")?;     // Date to compare
 
-    // Check wheather category equals 14 to cram
-    if extract_category(row) == Ok("14".to_string()){
+    //TODO: clean formatting: category, date and blablabla
+
+    // Check wheather category equals 14 to cram index reserved is 3
+    let category = extract_category(row, index);
+
+    println!("{:?}", category);
+    if category == Ok("14".to_string()){
         println!("14");
-        cram_income(cram_14, row, sheet, 0);
-        cram_expense(cram_14, row, sheet, 0);
+        cram_income(cram_values.get_mut("cram_14").expect("Big Kaboom"), row, sheet, 3);
+        cram_expense(cram_values.get_mut("cram_14").expect("Big Kaboom"), row, sheet, 3);
         
         return Err("CRAM".to_string());
         
-    // Check wheather category equals 15 to cram
-    } else if extract_category(row) == Ok("15".to_string()) && promt_user(row){
+        
+    // Check whether category equals 9 to cram index reserved is 0
+    } 
+    else if category == Ok("9 ".to_string()){
+        println!("10");
+        cram_income(cram_values.get_mut("cram_9").expect("Big Kaboom"), row, sheet, 0);
+        cram_expense(cram_values.get_mut("cram_9").expect("Big Kaboom"), row, sheet, 0);
+
+        return Err("CRAM".to_string());
+
+
+    // Check whether category equals 10 and whether user wants to cram index reserved is 1
+    } 
+    else if category == Ok("10".to_string()) && promt_user(10, row){
+        println!("10");
+        cram_income(cram_values.get_mut("cram_10").expect("Big Kaboom"), row, sheet, 1);
+        cram_expense(cram_values.get_mut("cram_10").expect("Big Kaboom"), row, sheet, 1);
+
+        return Err("CRAM".to_string());
+        
+
+    // Check whether category equals 12 and whether user wants to cram index reserved is 2
+    } 
+    else if category == Ok("12".to_string()) && promt_user(12, row){
+        println!("12");
+        cram_income(cram_values.get_mut("cram_12").expect("Big Kaboom"), row, sheet, 2);
+        cram_expense(cram_values.get_mut("cram_12").expect("Big Kaboom"), row, sheet, 2);
+
+        return Err("CRAM".to_string());
+        
+
+    // Check whether category equals 15 and whether user wants to cram index reserved is 4
+    } 
+    else if category == Ok("15".to_string()) && promt_user(15, row){
         println!("15");
-        cram_income(cram_15, row, sheet, 1);
-        cram_expense(cram_15, row, sheet, 1);
+        cram_income(cram_values.get_mut("cram_15").expect("Big Kaboom"), row, sheet, 4);
+        cram_expense(cram_values.get_mut("cram_15").expect("Big Kaboom"), row, sheet, 4);
+
+        return Err("CRAM".to_string());
+        
+
+    // Check whether category equals 20 and whether user wants to cram index reserved is 5
+    } 
+    else if category == Ok("20".to_string()) && promt_user(20, row){
+        println!("20");
+        cram_income(cram_values.get_mut("cram_20").expect("Big Kaboom"), row, sheet, 5);
+        cram_expense(cram_values.get_mut("cram_20").expect("Big Kaboom"), row, sheet, 5);
+
+        return Err("CRAM".to_string());
+
+
+    // Check wheter category equals 21 and whether user wants to cram index reserved is 6
+    } else if category == Ok("21".to_string()) && promt_user(21,row){
+        println!("21");
+        cram_income(cram_values.get_mut("cram_20").expect("Big Kaboom"), row, sheet, 6);
+        cram_expense(cram_values.get_mut("cram_20").expect("Big Kaboom"), row, sheet, 6);
 
         return Err("CRAM".to_string());
 
@@ -76,7 +133,7 @@ pub fn write_to_sheet<'a>(sheet: &mut xlsxwriter::Worksheet,
     write_income(row, sheet, index);
     write_expense(row, sheet, index);
     write_2_initals(row, sheet, index);
-    write_category_number_and_initials_dot_category_number(row, sheet, index);
+    write_category_number_and_initials_dot_category_number(sheet, index, category);
     }
     
     Ok(())
@@ -95,14 +152,12 @@ fn write_date<>(row: &Vec<String>, sheet: &mut xlsxwriter::Worksheet, index: u32
     // Extracts date and propagates error
     date = extract_date(row)?;
     
-    if compare_date(&date, "20/05/2024".to_string())?{
-        // Write date
-        sheet.write_string(index, 0, &date, None).expect("Failed to write");
-        Ok(())
 
-    } else{
-        Err("Date older".to_string())
-    }
+        // Write date
+    sheet.write_string(index, 0, &date, None).expect("Failed to write");
+    Ok(())
+
+
 
 }
 
@@ -161,20 +216,22 @@ fn write_2_initals(row: &Vec<String>, sheet: &mut xlsxwriter::Worksheet, index: 
     
 }
 
-fn write_category_number_and_initials_dot_category_number(row: &Vec<String>, sheet: &mut xlsxwriter::Worksheet, index: u32){
+fn write_category_number_and_initials_dot_category_number(sheet: &mut xlsxwriter::Worksheet, index: u32, category: Result<String, &str>){
     // Extracts category
     // Does not deal with error
     // Writes category number
     
-    let category: String;
+    let category_string: String;
     
-    match extract_category(row){
-        Ok(value) => category = value,
+    match category{
+        Ok(value) => category_string = value,
         Err(text) => panic!("{text}"),
     }
 
-    sheet.write_string(index, 6, &category, None).unwrap();
-    write_initials_dot_category_number(category, sheet, index);
+    print!("CATEGORY: {}", category_string);
+
+    sheet.write_string(index, 6, &category_string, None).unwrap();
+    write_initials_dot_category_number(category_string, sheet, index);
     
 }
 
@@ -198,16 +255,17 @@ fn write_initials_dot_category_number(category_number: String, sheet: &mut xlsxw
 
 }
 
+// 
 // Writer Functions responsible for cramming
-//
 //
 
 // Crams income accesing stored higer cram values
-// Takes the original value (cram), the row information, the sheet to write on, and the index of the row on which to write (in this case only 1 or 2)
+// Takes the original value (cram), the row information, the sheet to write on, and the 
+// index of the row on which to write (in this case only 1,2,3,4,5,6)
 
 fn cram_income(cram: &mut Vec<f32>, row: &Vec<String>, sheet:&mut xlsxwriter::Worksheet, index: u32){
 
-    // Define left half of income
+    // Define left half of income (convert it to f32)
     let income  = &extract_income(row).unwrap()
                                                 .chars()
                                                 .filter(|&c| c != '.' && c != ' ')
@@ -333,7 +391,7 @@ fn extract_expense(row: &Vec<String>) -> Result<&String, &str>{
 // Instead of returning the string reference
 // returns a new string value[0..2].to_string
 
-fn extract_category(row: &Vec<String>) -> Result<String, &str>{
+fn extract_category(row: &Vec<String>, row_index: u32) -> Result<String, &str>{
 
     let index = 7;   // category
 
@@ -344,6 +402,17 @@ fn extract_category(row: &Vec<String>) -> Result<String, &str>{
 
             if value.len() > 2 {    // Checks whether the lenght of sub_category is > 2
                 category = value[0..2].to_string();
+
+                if category == "Re" || category == "Av"{
+                    let memo = extract_memo(row).expect("goof");
+                    println!("MEMO: {memo}");
+                    println!("INDEX: {row_index}");
+                    print!("{:?}", row);
+                    category = promt_user_category(&category)
+                    
+            
+                }
+
                 Ok(category)
 
             } else {
@@ -432,11 +501,11 @@ fn compare_date(date: &String, comparision: String) -> Result<bool, String>{    
 }
 
 
-//Prompts user about cramming 15
+//Prompts user about cramming a category
 
-fn promt_user(row: &Vec<String>) -> bool{
-    println!("The following category has been identified as 15, do you wish to cram it?");
-    println!("{:?}", row);
+fn promt_user(category: u16, row: &Vec<String>) -> bool{
+    println!("The following category has been identified as {category}, do you wish to cram it?");
+    println!("MEMO: {}", extract_memo(row).expect("Mega Boom"));
 
     let mut awnser = String::new();
     io::stdin()
@@ -453,7 +522,25 @@ fn promt_user(row: &Vec<String>) -> bool{
 
 }
 
+//Promts user to fill in category
+fn promt_user_category(wrong_category: &str) -> String{
+
+    println!("Category was found to be {wrong_category}", );
+    println!("Please Insert the real category (20-Werk?, 21-Familie?, Reis 15 or 14)", );
+
+    let mut real_category = String::new();
+
+    io::stdin()
+        .read_line(&mut real_category)
+        .expect("Failed to read line");
+
+    return String::from(&real_category[0..2].to_string());
+
+}
+
+//
 //Functions responsible for formatting data
+//
 
 fn format_date_to_vector(date: &String) -> Result<Vec<u32>, &str>{
 
@@ -493,43 +580,4 @@ fn format_date_to_vector(date: &String) -> Result<Vec<u32>, &str>{
     }
 
     return Ok(date_vector);
-}
-
-// Deprecated will be removed in the future
-pub fn read_css() -> Result<String, String> {
-    use std::fs::File;
-    use csv::ReaderBuilder;
-
-    let path = "/Users/francisco/Documents/Scientia/Programming/Rust/YNAB to Excel/transactions.csv";
-    
-    // Open the CSV file
-    let file = File::open(path).expect("failed to find transactions file");
-
-    // Create a reader
-    let mut reader = ReaderBuilder::new().delimiter(b'\t').from_reader(file);
-
-    // Define a iterator
-    let mut iter:DeserializeRecordsIter<File, Vec<String>> = reader.deserialize();
-
-    loop {
-          // Iterate the reader
-        match iter.next() {
-            Some(result) => match result {
-                Ok(record) => { 
-
-                    print!("{:?}",&record[3]);  // Date
-                    print!("{:?}",extract_category(&record));    // Category
-                    print!("{:?}",record[8]);           // Memo
-                    print!("{:?}",record[9]);           // Expense
-                    println!("{:?}",record[10]);        // Income
-                    
-                },
-                Err(_) => return Err(String::from("Failure to retrieve result"))
-            },
-            None => return Err(String::from("error iterating")),
-            
-        }
-        
-    }
-
 }
